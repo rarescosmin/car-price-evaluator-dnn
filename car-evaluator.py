@@ -2,6 +2,53 @@ import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+import csv
+from csv import DictReader
+from csv import DictWriter
+
+#
+#   gets SET with text as input and returns dictionary with {key: text, value: numerical value}
+#
+def parseTextData(input_set):
+    computedDict = {}
+    sorted_set = input_set.sort()
+    index = 0
+    for input_set_value in sorted_set:
+        computedDict[input_set_value] = index
+        index = index + 1
+    
+    return computedDict
+
+#
+#   transforms carMake, carModel and carFuelType from word to number
+#   each will be given a number from 0 to ...
+#   this method will generate 2 csvs with the desired output
+#
+def generateMachineLearningData(input_file_name, output_file_name):
+
+    car_makes_set = set({})
+    car_models_set = set({})
+    car_fuel_types_set = set({})
+
+    with open(input_file_name, 'r') as read_obj:
+        csv_reader = DictReader(read_obj)
+
+        for row in csv_reader:
+            car_makes_set.add(row['make'])
+            car_models_set.add(row['model'])
+            car_fuel_types_set.add(row['fuelType'])
+        
+        car_makes_dict = parseTextData(car_makes_set)
+        car_models_set = parseTextData(car_models_set)
+        car_fuel_types_set = parseTextData(car_fuel_types_set)
+
+        
+
+        with open(output_file_name, 'a', newline='') as writer_obj:
+            csv_writer = csv.DictWriter(writer_obj, fieldnames=['make', 'model', 'year', 'mileage', 'fuelType', 'engineCapacity', 'price'])
+            csv_writer.writeheader()
+            for row in csv_reader:
+                csv_writer.writerow(row)
 
 #
 #   plots car makes if more than treshhold number of cars are listed
@@ -42,5 +89,6 @@ def plotMostListedCars(treshhold):
 
     
 if __name__ == '__main__':
-    plotMostListedCars(500)
+    #plotMostListedCars(500)
+    generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
     print('SCRIPT FINISHED RUNNING!')
