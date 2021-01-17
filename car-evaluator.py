@@ -5,6 +5,7 @@ import numpy as np
 import csv
 from csv import DictReader
 from csv import DictWriter
+import torch
 
 #
 #   gets SET with text as input and returns dictionary with {key: text, value: numerical value}
@@ -102,8 +103,16 @@ def plotMostListedCars(treshhold):
     plt.show()
 
 
+def prepareData():
+    train = pd.read_csv('./train-test-data/cars_train.csv')
+    test = pd.read_csv('./train-test-data/cars_test.csv')
+
+    trainset = torch.utils.data.DataLoader(train, batch_size=10, shuffle=True)
+    testset = torch.utils.data.DataLoader(test, batch_size=10, shuffle=True)
+
 if __name__ == '__main__':
     #plotMostListedCars(500)
-    generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
-    generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
+    #generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
+    #generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
+    prepareData()
     print('SCRIPT FINISHED RUNNING!')
