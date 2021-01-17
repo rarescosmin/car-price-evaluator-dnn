@@ -9,14 +9,16 @@ from csv import DictWriter
 #
 #   gets SET with text as input and returns dictionary with {key: text, value: numerical value}
 #
+
+
 def parseTextData(input_set):
     computedDict = {}
-    sorted_set = input_set.sort()
+    sorted_set = sorted(input_set)
     index = 0
     for input_set_value in sorted_set:
         computedDict[input_set_value] = index
         index = index + 1
-    
+
     return computedDict
 
 #
@@ -24,11 +26,17 @@ def parseTextData(input_set):
 #   each will be given a number from 0 to ...
 #   this method will generate 2 csvs with the desired output
 #
+
+
 def generateMachineLearningData(input_file_name, output_file_name):
 
     car_makes_set = set({})
     car_models_set = set({})
     car_fuel_types_set = set({})
+
+    car_makes_dict = {}
+    car_models_dict = {}
+    car_fuel_types_dict = {}
 
     with open(input_file_name, 'r') as read_obj:
         csv_reader = DictReader(read_obj)
@@ -37,17 +45,23 @@ def generateMachineLearningData(input_file_name, output_file_name):
             car_makes_set.add(row['make'])
             car_models_set.add(row['model'])
             car_fuel_types_set.add(row['fuelType'])
-        
-        car_makes_dict = parseTextData(car_makes_set)
-        car_models_set = parseTextData(car_models_set)
-        car_fuel_types_set = parseTextData(car_fuel_types_set)
 
-        
+        car_makes_dict = parseTextData(car_makes_set)
+        car_models_dict = parseTextData(car_models_set)
+        car_fuel_types_dict = parseTextData(car_fuel_types_set)
+
+    
+
+    with open(input_file_name, 'r') as read_obj:
+        csv_reader = DictReader(read_obj)
 
         with open(output_file_name, 'a', newline='') as writer_obj:
             csv_writer = csv.DictWriter(writer_obj, fieldnames=['make', 'model', 'year', 'mileage', 'fuelType', 'engineCapacity', 'price'])
             csv_writer.writeheader()
             for row in csv_reader:
+                row['make'] = car_makes_dict[row['make']]
+                row['model'] = car_models_dict[row['model']]
+                row['fuelType'] = car_fuel_types_dict[row['fuelType']]
                 csv_writer.writerow(row)
 
 #
@@ -71,7 +85,7 @@ def plotMostListedCars(treshhold):
                 count = count + 1
         if count > treshhold:
             plot_data[car_set_value] = count
-    
+
     plot_data_car_makes = list(plot_data.keys())
     plot_data_car_makes_count = list(plot_data.values())
 
@@ -87,8 +101,9 @@ def plotMostListedCars(treshhold):
     plt.autoscale()
     plt.show()
 
-    
+
 if __name__ == '__main__':
     #plotMostListedCars(500)
     generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
+    generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
     print('SCRIPT FINISHED RUNNING!')
