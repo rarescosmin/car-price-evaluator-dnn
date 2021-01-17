@@ -6,12 +6,38 @@ import csv
 from csv import DictReader
 from csv import DictWriter
 import torch
+from torch.utils.data import Dataset
+import torch.nn as nn
+import torch.nn.functional as F
+
+
+class CustomDataSet(Dataset):
+    def __init__(self, file_name):
+        file_out = pd.read_csv(file_name)
+        X = file_out.iloc[0:, 0:-1].values
+        Y = file_out.iloc[0:, -1].values
+
+        self.X_train = torch.tensor(X)
+        self.Y_train = torch.tensor(Y)
+    
+    def __len__(self):
+        return len(self.Y_train)
+    
+    def __getitem__(self, idx):
+        return self.X_train[idx], self.Y_train[idx]
+
+
+class Net(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc1 = nn.Linear(1*6, 1)
+        self.fc2 = nn.Linear(1*6, 1)
+        self.fc3 = nn.Linear(1*6, 1)
+        self.fc4 = nn.Linear(1*6, 1)
 
 #
 #   gets SET with text as input and returns dictionary with {key: text, value: numerical value}
 #
-
-
 def parseTextData(input_set):
     computedDict = {}
     sorted_set = sorted(input_set)
@@ -103,16 +129,15 @@ def plotMostListedCars(treshhold):
     plt.show()
 
 
-def prepareData():
-    train = pd.read_csv('./train-test-data/cars_train.csv')
-    test = pd.read_csv('./train-test-data/cars_test.csv')
+def evaluateCarPriceWithNN():
+    cars_data_frame = pd.read_csv('./train-test-data/cars_train.csv')
+    print(cars_data_frame)
+    
 
-    trainset = torch.utils.data.DataLoader(train, batch_size=10, shuffle=True)
-    testset = torch.utils.data.DataLoader(test, batch_size=10, shuffle=True)
-
+    
 if __name__ == '__main__':
     #plotMostListedCars(500)
     #generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
     #generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
-    prepareData()
+    evaluateCarPriceWithNN()
     print('SCRIPT FINISHED RUNNING!')
