@@ -83,7 +83,7 @@ def generateMachineLearningData(input_file_name, output_file_name):
         csv_reader = DictReader(read_obj)
 
         with open(output_file_name, 'a', newline='') as writer_obj:
-            csv_writer = csv.DictWriter(writer_obj, fieldnames=['make', 'model', 'year', 'mileage', 'fuelType', 'engineCapacity', 'price'])
+            csv_writer = csv.DictWriter(writer_obj, fieldnames=['make', 'model', 'year', 'mileage', 'fuelType', 'engineCapacity', 'cylinders', 'price'])
             csv_writer.writeheader()
             for row in csv_reader:
                 row['make'] = car_makes_dict[row['make']]
@@ -137,7 +137,7 @@ def evaluateCarPriceWithNN():
     
 if __name__ == '__main__':
     #plotMostListedCars(500)
-    #generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
-    #generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
-    evaluateCarPriceWithNN()
+    generateMachineLearningData('./clean-csv-data/cars_train.csv', './train-test-data/cars_train.csv')
+    generateMachineLearningData('./clean-csv-data/cars_test.csv', './train-test-data/cars_test.csv')
+    #evaluateCarPriceWithNN()
     print('SCRIPT FINISHED RUNNING!')
