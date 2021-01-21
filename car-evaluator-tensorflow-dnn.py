@@ -46,7 +46,7 @@ def build_and_compile_model(norm):
     ])
 
     model.compile(loss='mean_absolute_error',
-                optimizer=tf.keras.optimizers.Adam(learning_rate=0.1))
+                optimizer=tf.keras.optimizers.Adam(learning_rate=0.01))
     return model
 
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     logging.info('Splitting data into train and test... \n')
 
-    train_dataset = dataset.sample(frac=0.7, random_state=0)
+    train_dataset = dataset.sample(frac=0.8, random_state=0)
     logging.debug('Train dataset has %s data_types  \n and head looks like this: \n %s \n', train_dataset.dtypes, train_dataset.head())
 
     test_dataset = dataset.drop(train_dataset.index)
@@ -105,7 +105,7 @@ if __name__ == '__main__':
     logging.info('Training model... \n')
     history = dnn_model.fit(
         train_features, train_labels,
-        validation_split=0.3,
+        validation_split=0.2,
         verbose=0, epochs=200
     )
 
@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
 
     logging.info('<<--- Model trained! Gathering results... --->>\n')
-    
+
     hist = pd.DataFrame(history.history)
     hist['epoch'] = history.epoch
     logging.debug('Model last epochs values \n %s \n', hist.tail())

@@ -1,4 +1,4 @@
-DEBUG:Initial dataset head looks like this: 
+DEBUG:root:Initial dataset head looks like this: 
     make  model  year  mileage  fuelType  engineCapacity  cylinders  price
 0    49    346  2019    19700         0             998          3   9877
 1    57    318  2014   214000         3            1600          4   5990
@@ -6,7 +6,7 @@ DEBUG:Initial dataset head looks like this:
 3    10    262  2014    61000         3            1461          4   4950
 4    58    474  2009   212000         3            2400          4   9750 
 
-DEBUG:Initial dataset data types are: 
+DEBUG:root:Initial dataset data types are: 
 make              int64
 model             int64
 year              int64
@@ -17,9 +17,9 @@ cylinders         int64
 price             int64
 dtype: object 
 
-INFO:Splitting data into train and test... 
+INFO:root:Splitting data into train and test... 
 
-DEBUG:Train dataset has 
+DEBUG:root:Train dataset has 
 make              int64
 model             int64
 year              int64
@@ -38,7 +38,7 @@ and head looks like this:
 14091    24    477  2018        1         0            1997          4  38728
 8036     50    187  2011   120547         0             999          3   4500 
 
-DEBUG:Test dataset has 
+DEBUG:root:Test dataset has 
 make              int64
 model             int64
 year              int64
@@ -47,41 +47,41 @@ fuelType          int64
 engineCapacity    int64
 cylinders         int64
 price             int64
-dtype: object data_types
+dtype: object data_types 
 
 and head looks like this: 
      make  model  year  mileage  fuelType  engineCapacity  cylinders  price
 0     49    346  2019    19700         0             998          3   9877
-2      3    333  2011   261589         3            1968          4  13500
-3     10    262  2014    61000         3            1461          4   4950
-10     5    469  2012   234000         3            2000          4  13500
-13    44    276  2011   248500         3            1870          4   4800 
+13    44    276  2011   248500         3            1870          4   4800
+21    35    359  2012   207000         3            2993          4  15750
+25    35    202  2015   134560         3            2987          4  40989
+26     5    382  2011   313000         3            1995          4   6950 
 
-DEBUG:General information about the train dataset variables: 
+DEBUG:root:General information about the train dataset variables: 
                    count           mean           std     min      25%       50%       75%          max
-make            10198.0      30.716905  1.984321e+01     0.0      9.0      35.0      49.0         58.0
-model           10198.0     252.516474  1.364011e+02     0.0    143.0     257.0     379.0        485.0
-year            10198.0    2013.395372  4.776621e+00  1972.0   2010.0    2015.0    2017.0       2020.0
-mileage         10198.0  167263.831634  2.200966e+06     1.0  79700.0  156000.0  201000.0  222000000.0
-fuelType        10198.0       2.377035  1.320299e+00     0.0      3.0       3.0       3.0          5.0
-engineCapacity  10198.0    2000.272701  6.244784e+02   400.0   1598.0    1968.0    2000.0       6752.0
-cylinders       10198.0       4.068837  6.117156e-01     3.0      4.0       4.0       4.0         10.0
-price           10198.0   18227.621789  2.356216e+04   155.0   5950.0   10900.0   21516.5     599999.0 
+make            11655.0      30.772115  1.983958e+01     0.0      9.0      35.0      49.0         58.0
+model           11655.0     253.093522  1.363924e+02     0.0    143.0     259.0     379.0        485.0
+year            11655.0    2013.388160  4.768936e+00  1972.0   2010.0    2015.0    2017.0       2020.0
+mileage         11655.0  164582.991677  2.059040e+06     1.0  79557.5  156362.0  201779.5  222000000.0
+fuelType        11655.0       2.369884  1.324300e+00     0.0      3.0       3.0       3.0          5.0
+engineCapacity  11655.0    1999.073445  6.233554e+02   400.0   1598.0    1968.0    2000.0       6752.0
+cylinders       11655.0       4.069927  6.130558e-01     3.0      4.0       4.0       4.0         10.0
+price           11655.0   18167.692578  2.328214e+04   155.0   5900.0   10900.0   21494.5     599999.0 
 
-INFO:Displaying Train Dataset mean and deviation: 
+INFO:root:Displaying Train Dataset mean and deviation: 
                           mean           std
-make                30.716905  1.984321e+01
-model              252.516474  1.364011e+02
-year              2013.395372  4.776621e+00
-mileage         167263.831634  2.200966e+06
-fuelType             2.377035  1.320299e+00
-engineCapacity    2000.272701  6.244784e+02
-cylinders            4.068837  6.117156e-01
-price            18227.621789  2.356216e+04 
+make                30.772115  1.983958e+01
+model              253.093522  1.363924e+02
+year              2013.388160  4.768936e+00
+mileage         164582.991677  2.059040e+06
+fuelType             2.369884  1.324300e+00
+engineCapacity    1999.073445  6.233554e+02
+cylinders            4.069927  6.130558e-01
+price            18167.692578  2.328214e+04 
 
-INFO:Splitting features from labels.. 
+INFO:root:Splitting features from labels.. 
 
-DEBUG:Train dataset features head look like this: 
+DEBUG:root:Train dataset features head look like this: 
         make  model  year  mileage  fuelType  engineCapacity  cylinders
 2445     57    205  2008   152000         3            1895          4
 9494     35    281  2013   215000         3            2987          4
@@ -89,58 +89,58 @@ DEBUG:Train dataset features head look like this:
 14091    24    477  2018        1         0            1997          4
 8036     50    187  2011   120547         0             999          3 
 
-DEBUG:Train dataset labels head look like this: 
-2445      3990
+DEBUG:root:Train dataset labels head look like this: 
+ 2445      3990
 9494     17835
 578       8500
 14091    38728
 8036      4500
 Name: price, dtype: int64 
 
-DEBUG:Test dataset features head look like this: 
+DEBUG:root:Test dataset features head look like this: 
      make  model  year  mileage  fuelType  engineCapacity  cylinders
 0     49    346  2019    19700         0             998          3
-2      3    333  2011   261589         3            1968          4
-3     10    262  2014    61000         3            1461          4
-10     5    469  2012   234000         3            2000          4
-13    44    276  2011   248500         3            1870          4 
+13    44    276  2011   248500         3            1870          4
+21    35    359  2012   207000         3            2993          4
+25    35    202  2015   134560         3            2987          4
+26     5    382  2011   313000         3            1995          4 
 
-DEBUG:Test dataset labels head look like this: 
- 0      9877
-2     13500
-3      4950
-10    13500
+DEBUG:root:Test dataset labels head look like this: 
+0      9877
 13     4800
+21    15750
+25    40989
+26     6950
 Name: price, dtype: int64 
  
 
-INFO:Adding normalization layer... 
+INFO:root:Adding normalization layer... 
 
-INFO:Adapting normalizer to train featuers... 
+INFO:root:Adapting normalizer to train featuers... 
 
-INFO:Testing application of normalizer...
-DEBUG:First example: 
+INFO:root:Testing application of normalizer...
+DEBUG:root:First example: 
  [[    57    205   2008 152000      3   1895      4]]
-DEBUG:Normalized: 
- [[ 1.325 -0.348 -1.13  -0.007  0.472 -0.169 -0.113]]
-INFO:Finished testing for normalizer... 
+DEBUG:root:Normalized: 
+ [[ 1.322 -0.353 -1.13  -0.006  0.476 -0.167 -0.114]]
+INFO:root:Finished testing for normalizer... 
  
 
-INFO:Creating DNN model... 
+INFO:root:Creating DNN model... 
 
-INFO:Training model... 
+INFO:root:Training model... 
 
-INFO:<<--- Model trained! Gathering results... --->>
+INFO:root:<<--- Model trained! Gathering results... --->>
 
-DEBUG:Model last epochs values 
+DEBUG:root:Model last epochs values 
              loss     val_loss  epoch
-195  3412.712158  3874.843750    195
-196  3343.964111  3799.598145    196
-197  3271.753662  3986.437500    197
-198  3360.436768  3940.369629    198
-199  3323.490723  3826.357910    199 
+195  3622.962646  3616.573486    195
+196  3616.963623  3631.391602    196
+197  3618.110352  3622.429443    197
+198  3604.724609  3641.864014    198
+199  3620.734375  3581.442383    199 
 
-DEBUG:logging results 
+DEBUG:root:logging results 
             Mean absolute error [MPG]
-dnn_model               11497.626953 
+dnn_model                3644.069092 
  
