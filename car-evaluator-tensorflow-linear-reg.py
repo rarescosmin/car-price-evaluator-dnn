@@ -48,9 +48,6 @@ if __name__ == '__main__':
     train_dataset = dataset.sample(frac=0.7, random_state=0)
     test_dataset = dataset.drop(train_dataset.index)
 
-    # maybe plot something here
-    # print(train_dataset.describe().transpose())
-
     # split train test features from labels
     train_features = train_dataset.copy()
     test_features = test_dataset.copy()
@@ -62,44 +59,6 @@ if __name__ == '__main__':
     normalizer.adapt(np.array(train_features))
     # print(normalizer.mean.numpy())
 
-    # lets try to predict price from mileage only
-    # mileage = np.array(train_features['mileage'])
-    # mileage_normalizer = preprocessing.Normalization(input_shape=[1, ])
-    # mileage_normalizer.adapt(mileage)
-
-    # mileage_model = tf.keras.Sequential([
-    #     mileage_normalizer,
-    #     layers.Dense(units=1)
-    # ])
-
-    # mileage_model.summary()
-
-    # print(mileage_model.predict(mileage[:10]))
-
-    # mileage_model.compile(optimizer=tf.optimizers.Adam(learning_rate=0.1), loss='mean_absolute_error')
-
-    # history = mileage_model.fit(
-    #     train_features['mileage'], train_labels,
-    #     epochs=100,
-    #     # suppress logging
-    #     verbose=0,
-    #     # Calculate validation results on 20% of the training data
-    #     validation_split = 0.2)
-    # hist = pd.DataFrame(history.history)
-    # hist['epoch'] = history.epoch
-    # print('history tail \n', hist.tail())
-
-    # plot_loss(history)
-
-    # test_results = {}
-    # test_results['mileage_model'] = mileage_model.evaluate(
-    #                                         test_features['mileage'],
-    #                                         test_labels, verbose=0)
-    
-    # x = tf.linspace(0.0, 250, 251)
-    # y = mileage_model.predict(x)
-    # plot_mileage(x, y)
-
     linear_model = tf.keras.Sequential([
         normalizer,
         layers.Dense(units=1)
@@ -110,7 +69,7 @@ if __name__ == '__main__':
     )
     history = linear_model.fit(
         train_features, train_labels, 
-        epochs=2000,
+        epochs=1200,
         # suppress logging
         verbose=0,
         # Calculate validation results on 20% of the training data
