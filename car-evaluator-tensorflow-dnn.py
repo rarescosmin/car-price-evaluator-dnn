@@ -26,7 +26,7 @@ def load_csv_data(path, fieldnames):
 def plot_loss(history):
     plt.plot(history.history['loss'], label='loss')
     plt.plot(history.history['val_loss'], label='val_loss')
-    plt.ylim([0, 10000])
+    plt.ylim([0, 10])
     plt.xlabel('Epoch')
     plt.ylabel('Error [Price]')
     plt.legend()
@@ -45,7 +45,7 @@ def build_and_compile_model(norm):
         layers.Dense(1)
     ])
 
-    model.compile(loss='mean_absolute_error',
+    model.compile(loss="mean_squared_error",
                 optimizer=tf.keras.optimizers.Adam(learning_rate=0.01))
     return model
 
@@ -121,6 +121,8 @@ if __name__ == '__main__':
     test_results = {}
     test_results['dnn_model'] = dnn_model.evaluate(test_features, test_labels, verbose=0)
     
-    logging.debug('logging results \n %s \n ', pd.DataFrame(test_results, index=['Mean absolute error [MPG]']).T)
+    logging.debug('logging results \n %s \n ', pd.DataFrame(test_results, index=['Mean squared error [Price]']).T)
+
+
 
     print('Car Eval with DNN finished running')

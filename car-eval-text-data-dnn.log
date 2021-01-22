@@ -1,0 +1,23 @@
+INFO:root:Reading dataset... 
+
+DEBUG:root:dataframe.head() 
+          make  model  year  mileage fuelType  engineCapacity  cylinders  price
+0       skoda  rapid  2019    19700  benzina             998          3   9877
+1  volkswagen   polo  2014   214000   diesel            1600          4   5990
+2        audi     q5  2011   261589   diesel            1968          4  13500
+3       dacia  logan  2014    61000   diesel            1461          4   4950
+4       volvo     xc  2009   212000   diesel            2400          4   9750 
+
+INFO:root:Splitting dataframe into train, test and eval 
+
+DEBUG:root:9324 train examples
+DEBUG:root:2331 validation examples
+DEBUG:root:2914 test examples 
+
+INFO:root:Creating new dataset with larger batch 
+
+INFO:root:Encoding numerical features [year, mileage, engineCapacity]... 
+
+INFO:root:Encoding categorical features encoded as integers[cylinders] 
+
+INFO:root:Encoding categorical features encoded as strings
