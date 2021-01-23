@@ -50,7 +50,8 @@ if __name__ == '__main__':
 
     # encoding categorical features
     encoded_dataset = one_hot_encode_categorical_features(
-        raw_dataset, ['make', 'model', 'fuelType'])
+        raw_dataset, ['make', 'model', 'fuelType']
+    )
     logging.debug(
         'Dataset has been encoded looks like this: \n %s \n', encoded_dataset)
     logging.debug('Column names after encoding: \n %s \n',
@@ -72,11 +73,10 @@ if __name__ == '__main__':
     logging.info('Spliting features from labels... ')
     train_features = train_dataset.copy()
     train_labels = train_features.pop(TARGET_COLUMN)
-    logging.debug('Train features: \n %s \n', train_features.head())
-    logging.debug('Train labels: \n %s \n', train_labels.head())
-
     test_features = test_dataset.copy()
     test_labels =  test_features.pop(TARGET_COLUMN)
+    logging.debug('Train features: \n %s \n', train_features.head())
+    logging.debug('Train labels: \n %s \n', train_labels.head())
     logging.debug('Test features: \n %s \n', test_features.head())
     logging.debug('Test labels: \n %s \n', test_labels.head())
 
@@ -93,8 +93,7 @@ if __name__ == '__main__':
 
     model = keras.Sequential([
         normalizer,
-        layers.Dense(64, activation='relu'),
-        layers.Dense(64, activation='relu'),
+        layers.Dense(16, activation='relu'),
         layers.Dense(1)
     ])
 
@@ -106,8 +105,10 @@ if __name__ == '__main__':
     history = model.fit(
         train_features, train_labels,
         validation_split=0.2,
-        verbose=1, epochs=100
+        verbose=1, epochs=80,
+        batch_size=10
     )
 
     test_results = {}
     test_results['model'] = model.evaluate(test_features, test_labels, verbose=1)
+

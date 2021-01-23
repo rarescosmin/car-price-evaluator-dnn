@@ -1,0 +1,109 @@
+INFO:root:Reading csv... 
+DEBUG:root:Initial dataset: 
+          make  model  year  mileage fuelType  engineCapacity  cylinders  price
+0       skoda  rapid  2019    19700  benzina             998          3   9877
+1  volkswagen   polo  2014   214000   diesel            1600          4   5990
+2        audi     q5  2011   261589   diesel            1968          4  13500
+3       dacia  logan  2014    61000   diesel            1461          4   4950
+4       volvo     xc  2009   212000   diesel            2400          4   9750 
+
+INFO:root:One Hot Encoding make, model, fueltype columns... 
+DEBUG:root:Dataset has been encoded looks like this: 
+        year  mileage  engineCapacity  cylinders  price  abarth  alfa  aston  audi  bentley  bmw  cadillac  chevrolet  ...  xf  xj  xk8  xsara  yaris  yeti  z4  zafira  zt  benzina  diesel  electric  hibrid
+0      2019    19700             998          3   9877       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+1      2014   214000            1600          4   5990       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+2      2011   261589            1968          4  13500       0     0      0     1        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+3      2014    61000            1461          4   4950       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+4      2009   212000            2400          4   9750       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+...     ...      ...             ...        ...    ...     ...   ...    ...   ...      ...  ...       ...        ...  ...  ..  ..  ...    ...    ...   ...  ..     ...  ..      ...     ...       ...     ...
+14564  2014   200000            1995          4   9900       0     0      0     0        0    1         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14565  2010   274000            1600          4   4999       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14566  2015    46680            1490          4   9100       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14567  2019    25000            2993          4  57980       0     0      0     0        0    1         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14568  2011   180000            1590          4   5750       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+
+[14569 rows x 554 columns] 
+
+DEBUG:root:Column names after encoding: 
+ Index(['year', 'mileage', 'engineCapacity', 'cylinders', 'price', 'abarth',
+       'alfa', 'aston', 'audi', 'bentley',
+       ...
+       'xsara', 'yaris', 'yeti', 'z4', 'zafira', 'zt', 'benzina', 'diesel',
+       'electric', 'hibrid'],
+      dtype='object', length=554) 
+
+INFO:root:Splitting dataset into train and test...
+DEBUG:root:Train dataset size 11655 : 
+        year  mileage  engineCapacity  cylinders  price  abarth  alfa  aston  audi  bentley  bmw  cadillac  chevrolet  ...  xf  xj  xk8  xsara  yaris  yeti  z4  zafira  zt  benzina  diesel  electric  hibrid
+2445   2008   152000            1895          4   3990       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+9494   2013   215000            2987          4  17835       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+578    2011   229000            1997          4   8500       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14091  2018        1            1997          4  38728       0     0      0     0        0    0         0          0  ...   1   0    0      0      0     0   0       0   0        1       0         0       0
+8036   2011   120547             999          3   4500       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+
+[5 rows x 554 columns] 
+
+DEBUG:root:Test dataset size 2914 : 
+     year  mileage  engineCapacity  cylinders  price  abarth  alfa  aston  audi  bentley  bmw  cadillac  chevrolet  ...  xf  xj  xk8  xsara  yaris  yeti  z4  zafira  zt  benzina  diesel  electric  hibrid
+0   2019    19700             998          3   9877       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+13  2011   248500            1870          4   4800       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+21  2012   207000            2993          4  15750       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+25  2015   134560            2987          4  40989       0     0      0     0        0    0         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+26  2011   313000            1995          4   6950       0     0      0     0        0    1         0          0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+
+[5 rows x 554 columns] 
+
+INFO:root:General stats about the data: 
+                   count           mean           std     min      25%       50%       75%          max
+year            11655.0    2013.388160  4.768936e+00  1972.0   2010.0    2015.0    2017.0       2020.0
+mileage         11655.0  164582.991677  2.059040e+06     1.0  79557.5  156362.0  201779.5  222000000.0
+engineCapacity  11655.0    1999.073445  6.233554e+02   400.0   1598.0    1968.0    2000.0       6752.0
+cylinders       11655.0       4.069927  6.130558e-01     3.0      4.0       4.0       4.0         10.0
+price           11655.0   18167.692578  2.328214e+04   155.0   5900.0   10900.0   21494.5     599999.0
+...                 ...            ...           ...     ...      ...       ...       ...          ...
+zt              11655.0       0.000086  9.262834e-03     0.0      0.0       0.0       0.0          1.0
+benzina         11655.0       0.232003  4.221293e-01     0.0      0.0       0.0       0.0          1.0
+diesel          11655.0       0.740626  4.383098e-01     0.0      0.0       1.0       1.0          1.0
+electric        11655.0       0.000257  1.604232e-02     0.0      0.0       0.0       0.0          1.0
+hibrid          11655.0       0.027113  1.624192e-01     0.0      0.0       0.0       0.0          1.0
+
+[554 rows x 8 columns] 
+
+INFO:root:Spliting features from labels... 
+DEBUG:root:Train features: 
+        year  mileage  engineCapacity  cylinders  abarth  alfa  aston  audi  bentley  bmw  cadillac  chevrolet  chrysler  ...  xf  xj  xk8  xsara  yaris  yeti  z4  zafira  zt  benzina  diesel  electric  hibrid
+2445   2008   152000            1895          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+9494   2013   215000            2987          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+578    2011   229000            1997          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+14091  2018        1            1997          4       0     0      0     0        0    0         0          0         0  ...   1   0    0      0      0     0   0       0   0        1       0         0       0
+8036   2011   120547             999          3       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+
+[5 rows x 553 columns] 
+
+DEBUG:root:Train labels: 
+ 2445      3990
+9494     17835
+578       8500
+14091    38728
+8036      4500
+Name: price, dtype: int64 
+
+DEBUG:root:Test features: 
+     year  mileage  engineCapacity  cylinders  abarth  alfa  aston  audi  bentley  bmw  cadillac  chevrolet  chrysler  ...  xf  xj  xk8  xsara  yaris  yeti  z4  zafira  zt  benzina  diesel  electric  hibrid
+0   2019    19700             998          3       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        1       0         0       0
+13  2011   248500            1870          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+21  2012   207000            2993          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+25  2015   134560            2987          4       0     0      0     0        0    0         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+26  2011   313000            1995          4       0     0      0     0        0    1         0          0         0  ...   0   0    0      0      0     0   0       0   0        0       1         0       0
+
+[5 rows x 553 columns] 
+
+DEBUG:root:Test labels: 
+ 0      9877
+13     4800
+21    15750
+25    40989
+26     6950
+Name: price, dtype: int64 
+
+INFO:root:Adding normalizer...
