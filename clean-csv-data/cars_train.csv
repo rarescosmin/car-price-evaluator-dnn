@@ -35,7 +35,7 @@ audi,a6,2017,175657,diesel,1968,4,23788
 toyota,highlander,2007,192000,hibrid,3311,6,6800
 bmw,seria1,2016,46473,diesel,1995,4,18490
 lincoln,mkz,2012,150000,hibrid,2500,4,6800
-citroën,ds5,2014,130000,diesel,1560,4,8990
+citroen,ds5,2014,130000,diesel,1560,4,8990
 bmw,x1,2010,266000,diesel,1995,4,9499
 peugeot,308,2017,200000,diesel,1997,4,8490
 volkswagen,golf,2010,231000,diesel,1600,4,5399
@@ -308,7 +308,7 @@ bmw,seria5,2006,321000,diesel,2000,4,4599
 renault,talisman,2019,7200,benzina,1798,4,26049
 audi,a6,2015,158000,diesel,1968,4,21300
 ford,mondeo,2018,43836,hibrid,1999,4,18489
-opel,insignia,2017,83025,benzina+gpl,1364,4,8000
+opel,insignia,2017,83025,benzina,1364,4,8000
 audi,a8,2014,91100,diesel,2998,4,37842
 volkswagen,touran,2009,137000,benzina,1400,4,5299
 ford,ka,2010,116000,benzina,1200,4,2999
@@ -419,7 +419,7 @@ renault,megane,2009,262000,benzina,1600,4,3499
 bmw,seria5,2017,150000,diesel,1995,4,21400
 bmw,x3,2015,182000,diesel,1995,4,19990
 land,rover,2017,91150,diesel,1999,4,19900
-citroën,ds5,2016,199900,diesel,1997,4,12013
+citroen,ds5,2016,199900,diesel,1997,4,12013
 volkswagen,tiguan,2011,228000,diesel,1968,4,8990
 skoda,octavia,2007,246446,diesel,1900,4,4699
 opel,zafira,2013,283000,diesel,1956,4,6999
@@ -478,7 +478,7 @@ renault,kadjar,2016,152000,diesel,1598,4,11999
 bmw,x1,2016,180000,diesel,1995,4,16499
 skoda,octavia,2017,146000,diesel,1598,4,8890
 opel,astra,2006,224000,diesel,1900,4,2499
-volkswagen,passat,2006,215000,benzina+gpl,1600,4,3499
+volkswagen,passat,2006,215000,benzina,1600,4,3499
 audi,a4,2009,279000,diesel,2000,4,6299
 opel,astra,2011,216000,benzina,1400,4,4499
 mercedes-benz,a,2020,14,benzina,1991,4,46398
@@ -686,7 +686,7 @@ bmw,seria7,2013,250000,diesel,3000,6,19900
 skoda,superb,2016,122044,diesel,1968,4,16989
 land,rover,2015,66538,diesel,2993,4,53500
 ford,mondeo,2016,184000,diesel,1990,4,8700
-citroën,c4,2007,270000,diesel,1560,4,2499
+citroen,c4,2007,270000,diesel,1560,4,2499
 audi,q5,2013,221700,diesel,2967,4,20900
 bmw,seria7,2016,161000,diesel,2993,4,37960
 volkswagen,passat,2016,206800,diesel,1968,4,16990
@@ -722,7 +722,7 @@ volkswagen,passat,2014,96723,benzina,1984,4,14798
 bmw,seria3,2008,254400,diesel,1995,4,5699
 opel,astra,2017,161000,diesel,1598,4,9390
 bmw,x6,2011,207000,diesel,2993,4,16500
-citroën,c4,2014,199999,diesel,1560,4,8199
+citroen,c4,2014,199999,diesel,1560,4,8199
 volkswagen,touran,2017,186111,diesel,1968,4,12980
 suzuki,grand,2008,219000,diesel,1900,4,5700
 renault,talisman,2016,127730,diesel,1598,4,12990
@@ -790,7 +790,7 @@ mercedes-benz,e,2016,185000,diesel,1950,4,26490
 audi,a6,2018,42700,diesel,2967,4,39865
 mercedes-benz,a,2019,7150,benzina,1332,4,30821
 skoda,octavia,2015,227000,diesel,2000,4,7550
-citroën,ds5,2017,139764,diesel,1997,4,14990
+citroen,ds5,2017,139764,diesel,1997,4,14990
 opel,astra,2012,140000,diesel,1248,4,5480
 volkswagen,golf,2005,240000,diesel,1896,4,3899
 hyundai,ioniq,2017,199900,hibrid,1580,4,12316
@@ -838,7 +838,7 @@ ford,mondeo,2018,89700,hibrid,1998,4,18802
 skoda,octavia,2011,117399,diesel,1598,4,7490
 bmw,x5,2019,15800,diesel,2993,4,72900
 mercedes-benz,e,2019,4316,diesel,1950,4,46500
-citroën,ds5,2015,143279,diesel,1997,4,13989
+citroen,ds5,2015,143279,diesel,1997,4,13989
 renault,megane,2019,1,benzina,1332,4,16700
 skoda,fabia,2017,80751,diesel,1422,4,7799
 audi,a6,2010,229000,diesel,2698,4,7500
@@ -869,7 +869,7 @@ bmw,x6,2019,20000,diesel,2993,4,100534
 peugeot,3008,2012,243000,hibrid,1997,4,8499
 mercedes-benz,c,2014,122712,diesel,2143,4,17900
 volkswagen,touran,2005,194000,diesel,1896,4,2499
-citroën,c-crosser,2011,205000,diesel,2179,4,7999
+citroen,c-crosser,2011,205000,diesel,2179,4,7999
 bmw,x6,2017,140348,diesel,2993,4,37497
 skoda,octavia,2016,111848,diesel,1968,4,11999
 hyundai,ix35,2012,146000,diesel,1995,4,9999
@@ -928,7 +928,7 @@ land,rover,2010,214000,diesel,3000,6,10900
 ford,fiesta,2007,170000,benzina,1388,4,2490
 audi,a4,2009,250000,diesel,1968,4,6990
 opel,mokka,2013,120000,diesel,1686,4,9490
-citroën,c4,2013,200000,diesel,1560,4,5000
+citroen,c4,2013,200000,diesel,1560,4,5000
 audi,a3,2008,245000,diesel,1968,4,4900
 bmw,x3,2008,247000,diesel,1995,4,6500
 bmw,seria3,2010,250000,diesel,1995,4,6450
@@ -949,7 +949,7 @@ bmw,seria3,2009,240000,diesel,1995,4,7990
 ford,focus,2011,150000,diesel,1560,4,4490
 opel,mokka,2013,150000,diesel,1686,4,10490
 bmw,seria1,2009,280000,diesel,1995,4,4500
-nissan,juke,2014,206700,benzina+gpl,1600,4,7799
+nissan,juke,2014,206700,benzina,1600,4,7799
 audi,q5,2016,177004,diesel,1968,4,17998
 peugeot,508,2012,229031,diesel,1560,4,5499
 mercedes-benz,cla,2019,16837,benzina,1332,4,35581
@@ -1023,7 +1023,7 @@ mazda,cx-5,2018,154650,benzina,1998,4,18999
 audi,a6,2018,61700,diesel,1998,4,29900
 suzuki,jimny,2003,162000,benzina,1328,4,4799
 land,rover,2017,59000,benzina,1999,4,45000
-citroën,ds5,2013,147000,hibrid,1997,4,10900
+citroen,ds5,2013,147000,hibrid,1997,4,10900
 bmw,seria5,2004,315000,diesel,2497,4,5450
 mercedes-benz,c,2014,269000,diesel,2143,4,14190
 bmw,x6,2017,98000,diesel,2998,4,39900
@@ -1152,7 +1152,7 @@ bmw,seria4,2016,80194,diesel,1995,4,23788
 renault,clio,2016,133434,diesel,1461,4,6299
 bmw,seria5,2017,159320,diesel,1995,4,27965
 audi,q5,2017,180000,diesel,1998,4,18900
-citroën,c5,2015,51637,diesel,1997,4,13685
+citroen,c5,2015,51637,diesel,1997,4,13685
 renault,megane,2014,170000,diesel,1461,4,5790
 volvo,s60,2016,53658,diesel,1969,4,14489
 porsche,macan,2015,196000,benzina,2997,4,32500
@@ -1178,7 +1178,7 @@ toyota,aygo,2017,40916,benzina,998,3,6188
 peugeot,3008,2011,180000,diesel,1560,4,6990
 volvo,v50,2012,205840,diesel,1560,4,4950
 volkswagen,golf,2016,129143,diesel,1598,4,9688
-saab,9-5,2008,260000,diesel,1910,4,3200
+saab,5-Sep,2008,260000,diesel,1910,4,3200
 ford,focus,2015,118463,diesel,1498,4,8589
 ford,focus,2016,168915,benzina,1498,4,8989
 ford,focus,2016,62200,diesel,1499,4,8989
@@ -1526,7 +1526,7 @@ mercedes-benz,gle,2016,137000,diesel,2987,4,37961
 volkswagen,sharan,2015,178000,diesel,1968,4,11590
 volvo,xc,2015,212300,diesel,1968,4,16999
 mercedes-benz,glk,2014,107000,diesel,2200,4,20900
-citroën,c4,2016,170200,diesel,1600,4,7990
+citroen,c4,2016,170200,diesel,1600,4,7990
 mercedes-benz,c,2011,250000,diesel,2143,4,7990
 volkswagen,tiguan,2017,167000,diesel,2000,4,16890
 audi,a4,2005,178900,benzina,1998,4,3900
@@ -1574,7 +1574,7 @@ nissan,qashqai+2,2012,286100,diesel,1600,4,6499
 mazda,6,2013,209800,diesel,2200,4,8199
 dacia,duster,2020,7000,benzina,1300,4,13990
 ford,focus,2009,178000,diesel,1560,4,3449
-dacia,logan,2009,190500,benzina+gpl,1598,4,12500
+dacia,logan,2009,190500,benzina,1598,4,12500
 bmw,seria7,2013,230000,diesel,2993,4,17900
 bmw,x3,2016,157900,diesel,1995,4,23788
 audi,a4,2017,200000,diesel,2000,4,12199
@@ -1608,7 +1608,7 @@ mercedes-benz,clk,2006,155000,benzina,1796,4,7500
 mazda,cx-5,2016,88000,diesel,2194,4,13495
 audi,a4,2011,176260,diesel,1989,4,10200
 audi,a3,2013,100000,benzina,1395,4,10900
-citroën,c4,2014,198000,diesel,1600,4,7190
+citroen,c4,2014,198000,diesel,1600,4,7190
 renault,grand,2005,170000,diesel,2200,4,3650
 audi,a4,2012,141000,benzina,1798,4,8200
 bmw,x5,2012,160000,diesel,2993,4,17900
@@ -1817,7 +1817,7 @@ volvo,xc,2006,248879,diesel,2400,4,6599
 skoda,kodiaq,2017,158100,diesel,1968,4,25573
 mitsubishi,outlander,2014,124426,hibrid,2360,4,16648
 bmw,seria5,2012,154474,benzina,1997,4,17999
-citroën,c4,2012,101500,diesel,1800,4,9650
+citroen,c4,2012,101500,diesel,1800,4,9650
 bmw,seria5,2011,229000,diesel,2993,4,10950
 opel,corsa,2014,178000,benzina,1229,4,4499
 volvo,s80,2006,238100,diesel,2400,4,5500
@@ -1924,7 +1924,7 @@ mercedes-benz,e,2019,18900,benzina,1991,4,52999
 mercedes-benz,c,2013,190000,benzina,1600,4,10590
 volkswagen,passat,2011,232000,diesel,1968,4,7490
 bmw,seria6,2016,75600,diesel,2993,4,46500
-citroën,ds4,2012,100473,diesel,1600,4,7250
+citroen,ds4,2012,100473,diesel,1600,4,7250
 bmw,x1,2012,238000,diesel,1995,4,9850
 bmw,seria7,2017,73400,diesel,2993,4,46899
 toyota,rav4,2016,144387,diesel,1995,4,17900
@@ -2064,7 +2064,7 @@ bmw,seria3,2012,179869,diesel,1995,4,13790
 opel,insignia,2014,69398,diesel,1956,4,11999
 volkswagen,polo,2010,168000,diesel,1600,4,4300
 volkswagen,passat,2009,191583,diesel,1968,4,10293
-citroën,c5,2011,172000,diesel,1997,4,6900
+citroen,c5,2011,172000,diesel,1997,4,6900
 nissan,juke,2015,128000,diesel,1500,4,9990
 renault,megane,2017,63000,benzina,1598,4,10490
 ford,focus,2017,170900,diesel,1498,4,7390
@@ -2104,7 +2104,7 @@ audi,a8,2017,67500,diesel,2967,4,37842
 audi,a8,2018,47950,diesel,2967,4,54825
 mercedes-benz,cls,2011,297000,diesel,2987,4,16500
 volkswagen,passat,2015,146000,diesel,1968,4,14499
-citroën,ds5,2013,226409,hibrid,1997,4,8200
+citroen,ds5,2013,226409,hibrid,1997,4,8200
 ford,fiesta,2014,205000,diesel,1560,4,5300
 mercedes-benz,e,2017,142500,diesel,2990,4,29400
 land,rover,2019,28500,diesel,2993,4,49900
@@ -2118,7 +2118,7 @@ bmw,x4,2016,128423,diesel,1995,4,23997
 audi,a6,2017,162212,diesel,1968,4,17555
 renault,koleos,2013,81962,diesel,1995,4,10490
 bmw,x6,2017,39000,diesel,2993,4,49990
-chevrolet,kalos,2005,151000,benzina+gpl,1150,4,1499
+chevrolet,kalos,2005,151000,benzina,1150,4,1499
 mercedes-benz,gle,2020,1,diesel,2925,4,86858
 suzuki,vitara,2015,140000,diesel,1598,4,12499
 ford,mustang,2017,47658,benzina,3700,8,31500
@@ -2568,7 +2568,7 @@ bmw,seria3,2016,89026,diesel,1995,4,14350
 fiat,tipo,2017,52000,diesel,1248,4,7950
 porsche,panamera,2012,199950,diesel,2995,4,27900
 fiat,tipo,2017,60000,diesel,1248,4,7950
-citroën,c5,2010,252945,diesel,2000,4,4690
+citroen,c5,2010,252945,diesel,2000,4,4690
 volkswagen,sharan,2014,215000,diesel,1968,4,8950
 mercedes-benz,vito,2014,223000,diesel,2200,4,10500
 ford,mondeo,2019,49000,hibrid,1999,4,17950
@@ -2619,7 +2619,7 @@ volkswagen,passat,2016,184000,diesel,1598,4,11250
 skoda,octavia,2015,169700,diesel,1598,4,7490
 bmw,seria3,2013,190000,diesel,1996,4,13300
 skoda,yeti,2012,147000,benzina,1390,4,6700
-citroën,c5,2012,180000,diesel,1997,4,4990
+citroen,c5,2012,180000,diesel,1997,4,4990
 volkswagen,sharan,2014,170000,diesel,1968,4,10900
 renault,talisman,2016,196000,diesel,1500,4,9300
 porsche,cayenne,2015,191000,benzina,4806,8,37999
@@ -2645,7 +2645,7 @@ audi,a6,2013,171000,diesel,2967,4,13199
 bmw,seria3,2010,280000,diesel,1995,4,7590
 land,rover,2013,218000,diesel,2998,4,35800
 renault,talisman,2018,170000,diesel,1500,4,10190
-dacia,duster,2013,149500,benzina+gpl,1561,4,5900
+dacia,duster,2013,149500,benzina,1561,4,5900
 dacia,sandero,2018,108200,diesel,1461,4,5750
 bmw,x6,2016,168000,diesel,3000,6,35999
 mazda,cx-5,2015,173219,diesel,2191,4,12900
@@ -2668,7 +2668,7 @@ volvo,v90,2018,145100,diesel,1969,4,34990
 hyundai,ix35,2015,165000,diesel,1998,4,12850
 land,rover,2013,167000,diesel,2179,4,16700
 mercedes-benz,c,2015,79700,diesel,2143,4,26900
-dacia,logan,2016,93000,benzina+gpl,1149,4,6400
+dacia,logan,2016,93000,benzina,1149,4,6400
 opel,astra,2017,150000,diesel,1600,4,7389
 audi,a4,2015,217000,diesel,1968,4,11590
 audi,a5,2014,72000,benzina,1800,4,13450
@@ -2956,7 +2956,7 @@ mazda,cx-5,2016,181000,diesel,2191,4,12999
 mitsubishi,asx,2011,183500,diesel,1800,4,8650
 volkswagen,golf,2013,163976,diesel,1968,4,12000
 audi,a3,2011,197000,benzina,1390,4,5899
-citroën,c4,2013,240700,diesel,1560,4,6999
+citroen,c4,2013,240700,diesel,1560,4,6999
 renault,megane,2017,169000,diesel,1500,4,8999
 peugeot,308,2016,182424,diesel,1560,4,6249
 bmw,seria3,2013,179500,hibrid,2997,4,17992
@@ -2967,7 +2967,7 @@ ford,focus,2018,158000,diesel,1499,4,8990
 ford,transit,2019,18,diesel,1995,4,20741
 ford,transit,2019,8,diesel,1995,4,26172
 jaguar,xf,2016,99000,diesel,1999,4,17790
-dacia,logan,2015,109000,benzina+gpl,1149,4,5250
+dacia,logan,2015,109000,benzina,1149,4,5250
 bmw,x3,2006,211600,diesel,1995,4,4950
 hyundai,i40,2013,194000,diesel,1685,4,7490
 nissan,x-trail,2014,138000,diesel,1598,4,12890
@@ -3109,8 +3109,8 @@ opel,vectra,2005,269000,diesel,1898,4,1999
 dacia,logan,2007,243000,diesel,1461,4,2499
 mercedes-benz,b,2005,246000,diesel,1992,4,3499
 volkswagen,golf,2005,363000,diesel,1896,4,2999
-dacia,logan,2007,213000,benzina+gpl,1390,4,1499
-citroën,c4,2007,231000,diesel,1560,4,3499
+dacia,logan,2007,213000,benzina,1390,4,1499
+citroen,c4,2007,231000,diesel,1560,4,3499
 opel,astra,2005,200000,diesel,1686,4,2299
 renault,laguna,2002,280000,diesel,1870,4,1499
 lamborghini,aventador,2020,5592,benzina,6498,10,475881
@@ -3143,9 +3143,9 @@ volkswagen,caddy,2004,215000,diesel,1968,4,1450
 honda,cr-v,2020,1,benzina,1498,4,35989
 mercedes-benz,e,2018,850,diesel,1950,4,56882
 alfa,romeo,2007,200000,benzina,1900,4,2399
-citroën,c4,2007,220000,diesel,1600,4,1950
+citroen,c4,2007,220000,diesel,1600,4,1950
 audi,a5,2010,260000,diesel,2698,4,6450
-saab,9-3,2006,200000,diesel,1910,4,2555
+saab,3-Sep,2006,200000,diesel,1910,4,2555
 peugeot,407,2009,175000,diesel,2000,4,3499
 seat,ibiza,2007,180000,benzina,1390,4,2299
 skoda,octavia,2008,145000,diesel,1896,4,4550
@@ -3329,7 +3329,7 @@ volkswagen,passat,2006,140000,benzina,1969,4,4490
 volkswagen,passat,2007,230358,diesel,1896,4,2650
 volkswagen,golf,2005,263000,diesel,1896,4,2500
 mazda,3,2014,340000,diesel,2184,4,7990
-citroën,c4,2011,171000,benzina,1598,4,5390
+citroen,c4,2011,171000,benzina,1598,4,5390
 renault,grand,2011,188200,diesel,1461,4,5899
 audi,a4,2016,180000,diesel,1986,4,18950
 audi,a3,2006,154000,diesel,1986,4,2900
@@ -3454,7 +3454,7 @@ bmw,seria2,2016,207000,diesel,2000,4,15950
 opel,corsa,2008,183000,benzina,998,3,2190
 bmw,seria3,2017,209000,diesel,1995,4,15450
 mercedes-benz,cls,2006,229851,diesel,2987,4,8990
-citroën,c4,2007,211000,diesel,1600,4,2850
+citroen,c4,2007,211000,diesel,1600,4,2850
 renault,grand,2010,120000,diesel,1500,4,3999
 bmw,seria5,2008,291100,diesel,2993,4,5999
 volkswagen,scirocco,2011,148300,benzina,1390,4,8190
@@ -3634,11 +3634,11 @@ ford,fiesta,2015,129600,diesel,1499,4,5807
 opel,insignia,2018,28148,diesel,1956,4,30940
 mercedes-benz,gle,2017,108000,diesel,2987,4,37989
 volkswagen,crafter,2010,398000,diesel,2461,4,6900
-citroën,c-elysée,2015,80000,benzina,1199,4,5200
+citroen,c-elysée,2015,80000,benzina,1199,4,5200
 ford,fiesta,2018,53041,diesel,1498,4,9936
 bmw,seria1,2008,270300,diesel,1995,4,5999
 toyota,land,2012,245000,diesel,4461,8,37800
-dacia,sandero,2015,70000,benzina+cng,898,3,4599
+dacia,sandero,2015,70000,benzina,898,3,4599
 mercedes-benz,ml,2012,160000,diesel,2950,4,28500
 hyundai,tucson,2019,11000,benzina,1591,4,26899
 kia,ceed,2012,124123,diesel,1582,4,4999
@@ -3783,7 +3783,7 @@ skoda,octavia,2008,217000,diesel,2000,4,4199
 volkswagen,jetta,2016,41425,diesel,1968,4,11990
 renault,megane,2004,176809,diesel,1870,4,1350
 nissan,qashqai,2019,23800,diesel,1461,4,19360
-citroën,berlingo,2015,133601,diesel,1560,4,5750
+citroen,berlingo,2015,133601,diesel,1560,4,5750
 land,rover,2014,71000,diesel,2993,4,38000
 bmw,x5,2018,82000,diesel,2993,4,43980
 opel,grandland,2020,51,benzina,1199,4,19299
@@ -3881,7 +3881,7 @@ audi,a6,2013,134400,benzina,2995,4,17700
 fiat,punto,2000,196046,diesel,1910,4,400
 opel,grandland,2020,50,benzina,1199,4,18999
 volkswagen,golf,2006,230000,diesel,1968,4,3200
-citroën,xsara,2002,210000,diesel,1997,4,1500
+citroen,xsara,2002,210000,diesel,1997,4,1500
 opel,grandland,2020,35,benzina,1199,4,21849
 mercedes-benz,gla,2020,3,diesel,1950,4,52241
 bmw,seria5,2013,122232,diesel,1995,4,15900
@@ -4133,7 +4133,7 @@ audi,s8,2020,13500,benzina,3996,8,129698
 opel,crossland,2020,5,benzina,1199,4,14500
 audi,q8,2019,15,diesel,2968,4,76148
 dacia,duster,2015,85437,diesel,1461,4,8850
-citroën,c3,2014,131200,benzina,1199,4,5490
+citroen,c3,2014,131200,benzina,1199,4,5490
 land,rover,2020,1,benzina,2996,4,95477
 volkswagen,passat,2008,169000,benzina,1798,4,4850
 volkswagen,sharan,2008,262480,diesel,1896,4,3990
@@ -4184,7 +4184,7 @@ mercedes-benz,gle,2018,11000,diesel,2987,4,59381
 mercedes-benz,gle,2019,8371,benzina,2999,4,86900
 ford,ecosport,2015,98000,benzina,999,3,8590
 bmw,x5,2016,130000,hibrid,1998,4,35990
-citroën,c4,2011,162000,diesel,1560,4,4780
+citroen,c4,2011,162000,diesel,1560,4,4780
 bmw,seria5,2008,239000,diesel,2993,4,9459
 volkswagen,caravelle,2010,400000,diesel,2500,4,7100
 mazda,6,2002,234000,benzina,1800,4,2600
@@ -4211,7 +4211,7 @@ mitsubishi,asx,2014,110000,diesel,2268,4,9900
 peugeot,4008,2012,195000,diesel,1560,4,8250
 volkswagen,golf,2009,139551,benzina,1390,4,5900
 volvo,v60,2014,254500,diesel,1997,4,8990
-citroën,c4,2008,231676,diesel,1560,4,2100
+citroen,c4,2008,231676,diesel,1560,4,2100
 mercedes-benz,sprinter,2012,212471,diesel,2143,4,9990
 volkswagen,passat,2013,190329,diesel,1968,4,6799
 audi,sq8,2020,1,diesel,3956,8,123641
@@ -4235,7 +4235,7 @@ volkswagen,jetta,2013,101297,benzina,1197,4,7850
 audi,a4,2011,227526,diesel,1968,4,7100
 land,rover,2020,2000,benzina,1999,4,27500
 volkswagen,polo,2019,16500,benzina,1984,4,21500
-citroën,c4,2012,175000,diesel,1798,4,8500
+citroen,c4,2012,175000,diesel,1798,4,8500
 volkswagen,passat,2008,290000,diesel,1968,4,4590
 skoda,fabia,2011,128000,benzina,1197,4,3750
 kia,venga,2013,156000,diesel,1400,4,4450
@@ -4293,7 +4293,7 @@ land,rover,2007,306000,diesel,3600,6,6900
 porsche,cayenne,2007,145000,benzina,3189,6,11500
 land,rover,2010,194560,diesel,2993,4,12500
 ford,focus,2015,213541,diesel,1499,4,7799
-opel,insignia,2017,133074,benzina+gpl,1364,4,8000
+opel,insignia,2017,133074,benzina,1364,4,8000
 mercedes-benz,gle,2016,144951,diesel,2987,4,30519
 opel,zafira,2004,131000,diesel,1995,4,1850
 volkswagen,golf,2009,126000,benzina,1390,4,5390
@@ -4394,9 +4394,9 @@ suzuki,vitara,2018,25300,benzina,1373,4,16700
 kia,xceed,2019,1,benzina,1353,4,25200
 volkswagen,golf,2016,118076,diesel,1598,4,9500
 bmw,seria3,2013,183180,diesel,1995,4,15450
-dacia,logan,2008,400000,benzina+gpl,1390,4,1150
+dacia,logan,2008,400000,benzina,1390,4,1150
 skoda,octavia,2018,120342,diesel,1598,4,13950
-citroën,ds5,2013,199801,hibrid,1997,4,8190
+citroen,ds5,2013,199801,hibrid,1997,4,8190
 seat,leon,2012,218000,diesel,2000,4,5650
 lexus,seria,2019,10707,hibrid,2494,4,39270
 toyota,corolla,2014,118800,benzina,1329,4,7900
@@ -4407,7 +4407,7 @@ lexus,seria,2017,86000,hibrid,2494,4,26780
 bmw,x5,2014,189000,diesel,2993,4,22495
 skoda,octavia,2015,148426,diesel,1968,4,10600
 skoda,fabia,2019,32371,benzina,999,3,9850
-dacia,logan,2008,400000,benzina+gpl,1390,4,950
+dacia,logan,2008,400000,benzina,1390,4,950
 audi,a8,2015,150000,diesel,2967,4,30333
 mercedes-benz,e,2017,58990,diesel,1950,4,29800
 mercedes-benz,e,2015,150000,diesel,2143,4,23363
@@ -4482,7 +4482,7 @@ volkswagen,passat,2004,299000,diesel,1896,4,2400
 bmw,x1,2011,218000,diesel,2000,4,7799
 renault,grand,2007,256800,benzina,1985,4,2999
 bmw,x3,2006,240000,diesel,2000,4,5499
-volkswagen,golf,2009,197000,benzina+gpl,1398,4,6650
+volkswagen,golf,2009,197000,benzina,1398,4,6650
 volkswagen,tiguan,2008,190000,diesel,2000,4,6999
 volkswagen,touareg,2014,114108,diesel,2967,4,20899
 volkswagen,golf,2007,133150,benzina,1398,4,3750
@@ -4501,7 +4501,7 @@ volkswagen,caddy,2007,270000,diesel,1896,4,4588
 ford,kuga,2019,13500,diesel,1997,4,24966
 bmw,seria3,2013,173000,diesel,1995,4,12999
 mercedes-benz,gls,2016,145000,diesel,2987,4,46410
-dodge,ram,2020,20,benzina+gpl,5654,8,80298
+dodge,ram,2020,20,benzina,5654,8,80298
 bmw,seria4,2016,125900,diesel,2993,4,24550
 mercedes-benz,c,2008,212700,diesel,2148,4,8500
 opel,astra,2007,187000,benzina,1600,4,2450
@@ -4566,9 +4566,9 @@ mercedes-benz,s,2019,20034,diesel,2925,4,70716
 bmw,x6,2012,153000,diesel,2993,4,21500
 ford,fiesta,2010,148957,diesel,1560,4,4499
 skoda,superb,2015,180500,diesel,1598,4,9450
-saab,9-3,2007,239000,benzina,2000,4,5400
+saab,3-Sep,2007,239000,benzina,2000,4,5400
 skoda,octavia,2010,120212,benzina,1800,4,7960
-ford,f150,2010,168000,benzina+gpl,5408,8,31535
+ford,f150,2010,168000,benzina,5408,8,31535
 mercedes-benz,gle,2017,87899,benzina,2996,4,47890
 jaguar,xf,2012,86000,diesel,2200,4,12900
 mitsubishi,outlander,2015,171648,diesel,2268,4,11990
@@ -4660,7 +4660,7 @@ opel,astra,2017,187000,diesel,1598,4,7850
 fiat,500,2020,2,hibrid,999,3,15414
 mercedes-benz,a,2020,8200,benzina,1332,4,32939
 audi,a8,2011,235000,diesel,2967,4,16250
-hummer,h3,2007,68000,benzina+gpl,3653,8,7000
+hummer,h3,2007,68000,benzina,3653,8,7000
 mercedes-benz,c,2016,165000,benzina,1991,4,25000
 audi,a3,2008,250000,diesel,1896,4,4390
 skoda,fabia,2011,115500,benzina,1200,4,4450
@@ -4797,9 +4797,9 @@ volkswagen,passat,2011,118000,diesel,1996,4,10690
 audi,a3,2013,200000,benzina,1400,4,8900
 audi,q5,2016,158000,diesel,1995,4,17690
 toyota,land,1989,215000,diesel,2400,4,3700
-saab,9-5,2005,240000,diesel,1900,4,1350
+saab,5-Sep,2005,240000,diesel,1900,4,1350
 porsche,911,2012,118000,benzina,3436,6,59900
-citroën,c4,2008,230077,diesel,1600,4,3199
+citroen,c4,2008,230077,diesel,1600,4,3199
 audi,a4,2002,174000,benzina,1984,4,2450
 ford,mondeo,2017,69870,diesel,1997,4,20990
 volkswagen,polo,2006,157000,diesel,1400,4,2200
@@ -4837,7 +4837,7 @@ nissan,qashqai+2,2010,220000,diesel,1461,4,6650
 opel,corsa,2017,89000,benzina,1398,4,7200
 dacia,duster,2010,175000,diesel,1461,4,5390
 nissan,juke,2011,188000,diesel,1461,4,6590
-citroën,c3,2012,110000,benzina,1400,4,6660
+citroen,c3,2012,110000,benzina,1400,4,6660
 audi,a4,2013,188000,diesel,2000,4,8690
 toyota,rav4,2008,198000,diesel,2200,4,4800
 mercedes-benz,sprinter,2015,225000,diesel,2200,4,9999
@@ -5018,7 +5018,7 @@ audi,a4,2012,177000,diesel,1968,4,9998
 volkswagen,passat,2016,153000,diesel,1968,4,17250
 dacia,dokker,2017,96257,diesel,1461,4,7500
 bmw,seria6,2016,195000,diesel,2993,4,29990
-citroën,c1,2008,120000,benzina,998,3,2200
+citroen,c1,2008,120000,benzina,998,3,2200
 dacia,logan,2016,93631,diesel,1461,4,5500
 mazda,cx-5,2014,175000,diesel,2200,4,10500
 toyota,corolla,2004,207000,benzina,1390,4,1800
@@ -5044,7 +5044,7 @@ mercedes-benz,slr,2008,35620,benzina,5439,8,289000
 porsche,cayenne,2011,180000,diesel,2967,4,18900
 chevrolet,spark,2010,39500,benzina,995,3,3450
 mercedes-benz,c,2016,160000,hibrid,2143,4,20599
-citroën,c3,2005,144038,diesel,1398,4,1599
+citroen,c3,2005,144038,diesel,1398,4,1599
 volkswagen,tiguan,2018,188021,diesel,1998,4,16900
 smart,forfour,2005,204000,benzina,1300,4,2690
 bmw,seria6,2013,190000,diesel,2998,4,21900
@@ -5078,8 +5078,8 @@ fiat,brava,2000,130000,benzina,1596,4,600
 audi,a4,2008,237000,diesel,1968,4,6980
 opel,astra,2016,140000,diesel,1598,4,7490
 volkswagen,golf,2016,156000,diesel,1598,4,7500
-dacia,logan,2008,225000,benzina+gpl,1390,4,7000
-mercedes-benz,c,2002,180000,benzina+gpl,2000,4,1099
+dacia,logan,2008,225000,benzina,1390,4,7000
+mercedes-benz,c,2002,180000,benzina,2000,4,1099
 jaguar,xk8,1998,179000,benzina,3996,8,8900
 peugeot,407,2005,177818,diesel,1997,4,2575
 ford,transit,2016,135000,diesel,2146,4,12400
@@ -5106,7 +5106,7 @@ audi,a6,2015,87900,diesel,2967,4,33499
 volkswagen,polo,2005,165000,benzina,1198,4,1499
 audi,a5,2012,291000,diesel,1968,4,10390
 dacia,duster,2015,112000,diesel,1461,4,9790
-renault,megane,2007,158000,benzina+gpl,1997,4,4400
+renault,megane,2007,158000,benzina,1997,4,4400
 renault,megane,2013,170000,diesel,1461,4,4700
 renault,kadjar,2016,140000,diesel,1461,4,13200
 renault,kangoo,2001,190000,diesel,1900,4,599
@@ -5124,7 +5124,7 @@ ford,fiesta,2016,113876,diesel,1499,4,6366
 jeep,grand,2017,102865,diesel,2987,4,30226
 volkswagen,golf,2010,175000,benzina,1390,4,4500
 opel,mokka,2016,159491,diesel,1600,4,9999
-dacia,logan,2009,168500,benzina+gpl,1598,4,2250
+dacia,logan,2009,168500,benzina,1598,4,2250
 porsche,panamera,2012,187540,diesel,2998,4,25500
 mercedes-benz,e,2017,165142,diesel,1950,4,29989
 opel,astra,2006,218000,diesel,1910,4,2290
@@ -5218,7 +5218,7 @@ audi,a4,2003,212000,diesel,1896,4,2950
 audi,a6,2006,280000,benzina,1984,4,6300
 volkswagen,passat,2006,186331,diesel,1968,4,5200
 dacia,logan,2007,263000,benzina,1390,4,2199
-citroën,c4,2007,180000,diesel,1990,4,2790
+citroen,c4,2007,180000,diesel,1990,4,2790
 mercedes-benz,c,2015,189509,diesel,2143,4,13989
 mercedes-benz,e,2019,10,diesel,1950,4,55811
 toyota,yaris,2017,79000,hibrid,1498,4,10412
@@ -5262,12 +5262,12 @@ bmw,x5,2014,224000,diesel,3000,6,19850
 nissan,x-trail,2004,137303,diesel,2184,4,4000
 skoda,octavia,2015,182000,benzina,1198,4,8500
 ford,transit,2015,148474,diesel,1498,4,5800
-citroën,c4,2011,191500,diesel,1560,4,4780
+citroen,c4,2011,191500,diesel,1560,4,4780
 mercedes-benz,c,2018,33900,benzina,1991,4,26580
 opel,zafira,2012,169000,diesel,1956,4,6599
 volkswagen,tiguan,2015,254000,diesel,1968,4,11770
 skoda,fabia,2011,211423,benzina,1400,4,3590
-hyundai,i10,2016,99000,benzina+gpl,998,3,5499
+hyundai,i10,2016,99000,benzina,998,3,5499
 volkswagen,golf,2015,65100,benzina,1197,4,10650
 audi,a6,2013,227000,benzina,2000,4,11990
 volvo,v40,2017,198337,diesel,1969,4,10489
@@ -5286,7 +5286,7 @@ mitsubishi,outlander,2007,190125,diesel,1995,4,5650
 bmw,seria3,2013,200000,diesel,1995,4,11800
 volkswagen,golf,2018,8000,benzina,999,3,12700
 volkswagen,golf,2007,197700,diesel,1896,4,3400
-citroën,ds5,2013,246600,hibrid,1997,4,10300
+citroen,ds5,2013,246600,hibrid,1997,4,10300
 bmw,x3,2014,163000,diesel,2000,4,14800
 opel,astra,2010,180000,diesel,1295,4,4690
 mercedes-benz,viano,2011,320000,diesel,2993,4,8999
@@ -5351,7 +5351,7 @@ volvo,v60,2015,200000,hibrid,2400,4,12290
 seat,altea,2008,250000,diesel,1900,4,3699
 kia,ceed,2018,33500,diesel,1582,4,12900
 audi,a4,2009,260000,diesel,1968,4,7700
-dacia,logan,2011,158000,benzina+gpl,1390,4,2190
+dacia,logan,2011,158000,benzina,1390,4,2190
 opel,astra,2005,251000,diesel,1686,4,2050
 bmw,seria5,2009,276400,diesel,1995,4,8500
 bmw,seria3,2002,143293,diesel,1951,4,3300
@@ -5399,13 +5399,13 @@ ford,mondeo,2011,230000,diesel,1998,4,3750
 ford,kuga,2018,8500,benzina,1499,4,30000
 volkswagen,golf,2006,191000,benzina,1598,4,3199
 opel,corsa,2005,170000,benzina,998,3,1200
-opel,corsa,2009,170000,benzina+gpl,1200,4,2999
+opel,corsa,2009,170000,benzina,1200,4,2999
 audi,a6,2012,193000,diesel,2967,4,14800
 volvo,xc,2016,113000,diesel,1969,4,33600
 opel,insignia,2015,65000,diesel,1956,4,12499
 volkswagen,golf,2017,170640,diesel,1598,4,8900
 peugeot,407,2007,188897,diesel,1997,4,2875
-dacia,logan,2014,168500,benzina+gpl,1200,4,3950
+dacia,logan,2014,168500,benzina,1200,4,3950
 seat,altea,2007,330000,diesel,1598,4,4499
 mercedes-benz,e,2006,307000,diesel,2987,4,4300
 peugeot,407,2007,176536,diesel,1997,4,3175
@@ -5423,7 +5423,7 @@ mini,cooper,2007,167000,benzina,1598,4,3500
 seat,leon,2003,219600,benzina,1781,4,2500
 volkswagen,touareg,2014,238000,diesel,2986,4,21500
 bmw,seria5,2014,172000,diesel,1995,4,12500
-citroën,c3,2016,128900,diesel,1560,4,5690
+citroen,c3,2016,128900,diesel,1560,4,5690
 bmw,seria7,2016,78999,benzina,4395,8,45000
 peugeot,5008,2015,198000,diesel,1560,4,6999
 volkswagen,golf,2012,185000,diesel,1600,4,7990
@@ -5453,7 +5453,7 @@ volkswagen,polo,2004,277000,diesel,1422,4,1699
 bmw,seria3,2008,141000,benzina,1995,4,6299
 opel,insignia,2020,1,diesel,1956,4,28809
 ford,mondeo,2007,182000,diesel,1998,4,1990
-dacia,sandero,2014,127369,benzina+cng,1149,4,3200
+dacia,sandero,2014,127369,benzina,1149,4,3200
 bmw,x6,2009,193000,diesel,3000,6,15950
 skoda,fabia,2012,191000,diesel,1200,4,4400
 alfa,romeo,2006,234000,diesel,1910,4,2999
@@ -5488,7 +5488,7 @@ renault,trafic,2013,223000,diesel,1995,4,10550
 volkswagen,arteon,2018,176000,diesel,2000,4,20790
 volkswagen,passat,2011,249000,diesel,1598,4,6200
 bmw,x5,2016,118000,diesel,1995,4,26300
-citroën,c4,2006,228000,diesel,1560,4,2499
+citroen,c4,2006,228000,diesel,1560,4,2499
 mercedes-benz,a,2006,245000,diesel,1991,4,2650
 mercedes-benz,cla,2014,137800,diesel,1461,4,14200
 renault,megane,2001,38000,benzina,1600,4,1600
@@ -5498,11 +5498,11 @@ nissan,murano,2012,195564,diesel,2488,4,8990
 skoda,fabia,2008,177500,benzina,1199,4,2650
 volkswagen,passat,2011,139200,diesel,1968,4,6100
 audi,a3,2010,140000,diesel,1598,4,6900
-chevrolet,aveo,2009,156000,benzina+gpl,1200,4,2350
+chevrolet,aveo,2009,156000,benzina,1200,4,2350
 mercedes-benz,c,2008,280000,diesel,2149,4,5750
 mercedes-benz,e,2019,15500,benzina,1991,4,55454
 mazda,6,2005,250000,diesel,1987,4,2200
-citroën,c4,2006,161223,diesel,1598,4,1800
+citroen,c4,2006,161223,diesel,1598,4,1800
 peugeot,108,2016,122260,benzina,1000,3,5990
 mercedes-benz,b,2013,130000,diesel,1461,4,9600
 volkswagen,golf,2010,207000,diesel,1598,4,4750
@@ -5534,7 +5534,7 @@ opel,astra,2004,217200,diesel,1686,4,3200
 audi,a5,2015,179543,benzina,1984,4,15799
 mercedes-benz,cls,2015,150000,diesel,2993,4,22300
 renault,clio,2014,218000,diesel,1461,4,5999
-opel,vectra,1997,243000,benzina+gpl,1598,4,999
+opel,vectra,1997,243000,benzina,1598,4,999
 skoda,octavia,2001,243000,benzina,1598,4,1199
 fiat,panda,2005,120000,benzina,1242,4,1999
 chevrolet,kalos,2006,133000,benzina,1399,4,1299
@@ -5576,7 +5576,7 @@ volkswagen,passat,2016,198000,diesel,1968,4,9399
 opel,astra,2016,114200,diesel,1599,4,9500
 volkswagen,golf,2013,311000,diesel,1598,4,5499
 ford,focus,2017,77000,benzina,999,3,6999
-citroën,c4,2011,160000,diesel,1560,4,4590
+citroen,c4,2011,160000,diesel,1560,4,4590
 suzuki,grand,2010,196000,diesel,1870,4,5900
 bmw,seria7,2010,215000,diesel,2993,4,12000
 opel,corsa,2008,190000,diesel,1248,4,2700
@@ -5603,7 +5603,7 @@ volkswagen,passat,2016,231000,diesel,1968,4,10900
 nissan,qashqai,2009,150000,diesel,1994,4,5100
 skoda,superb,2009,250000,diesel,1968,4,5990
 renault,scenic,2010,195000,diesel,1870,4,4990
-citroën,xsara,2003,290000,diesel,1997,4,990
+citroen,xsara,2003,290000,diesel,1997,4,990
 mercedes-benz,a,2000,360000,diesel,1698,4,990
 skoda,octavia,2006,120000,diesel,1896,4,4250
 volkswagen,golf,2013,200000,diesel,1968,4,6850
@@ -5641,7 +5641,7 @@ bmw,seria5,2012,232000,diesel,2993,4,13999
 skoda,fabia,2011,203900,benzina,1197,4,3599
 audi,a5,2015,225561,diesel,1968,4,14650
 skoda,octavia,2014,220000,diesel,1968,4,6950
-citroën,c4,2012,224000,diesel,1800,4,7990
+citroen,c4,2012,224000,diesel,1800,4,7990
 audi,a3,2014,157000,diesel,1998,4,9900
 volkswagen,sharan,2007,309000,diesel,1896,4,4499
 audi,a4,2013,182000,diesel,1968,4,10500
@@ -5663,7 +5663,7 @@ audi,a8,2019,110000,diesel,2900,4,65000
 opel,corsa,2018,118560,diesel,1248,4,6650
 mercedes-benz,e,2019,3000,benzina,1991,4,49980
 renault,megane,2016,146000,diesel,1500,4,7250
-citroën,c4,2008,119000,diesel,1560,4,2999
+citroen,c4,2008,119000,diesel,1560,4,2999
 skoda,octavia,2011,293000,diesel,1600,4,5190
 renault,master,2013,113500,diesel,2298,4,5900
 renault,megane,2014,195016,diesel,1500,4,5990
@@ -5701,11 +5701,11 @@ mercedes-benz,e,2006,177000,benzina,1796,4,6199
 renault,symbol,2011,66000,benzina,1149,4,3500
 ford,fiesta,2012,180000,diesel,1600,4,4450
 mercedes-benz,c,2004,234000,diesel,2148,4,2890
-citroën,c8,2004,344000,diesel,1979,4,2499
+citroen,c8,2004,344000,diesel,1979,4,2499
 suzuki,ignis,2002,208000,benzina,1328,4,1999
 opel,vivaro,2009,242000,diesel,1995,4,4599
 mitsubishi,l200,2019,47000,diesel,2200,4,36990
-opel,astra,2006,235000,benzina+gpl,1590,4,2800
+opel,astra,2006,235000,benzina,1590,4,2800
 mercedes-benz,s,2017,22000,diesel,2997,4,64900
 volkswagen,polo,2015,160000,diesel,1395,4,5890
 volkswagen,touran,2006,298500,diesel,1896,4,2000
@@ -5728,10 +5728,10 @@ ford,c-max,2011,253000,diesel,1997,4,4900
 volkswagen,passat,2015,220000,diesel,1998,4,11000
 bmw,seria1,2015,66800,diesel,1995,4,17500
 volkswagen,tiguan,2016,194000,diesel,1968,4,17900
-volkswagen,golf,2009,223000,benzina+gpl,1595,4,5500
+volkswagen,golf,2009,223000,benzina,1595,4,5500
 mercedes-benz,e,2012,290000,diesel,2200,4,11500
 mercedes-benz,e,2017,126000,diesel,2987,4,32500
-citroën,c4,2010,136800,diesel,1997,4,3950
+citroen,c4,2010,136800,diesel,1997,4,3950
 audi,q7,2012,118000,diesel,2967,4,22500
 toyota,rav4,2005,177000,diesel,1995,4,3890
 mercedes-benz,clk,2007,183000,benzina,1997,4,6000
@@ -5768,7 +5768,7 @@ dacia,logan,2018,8000,benzina,900,3,6799
 audi,a4,2016,150000,diesel,1968,4,19980
 audi,q8,2018,30000,diesel,2967,4,66980
 seat,ibiza,2011,180000,benzina,1200,4,5550
-citroën,c5,2015,186825,diesel,1600,4,6990
+citroen,c5,2015,186825,diesel,1600,4,6990
 bmw,x6,2017,29500,diesel,2993,4,52000
 audi,a8,2007,332000,diesel,4134,8,9900
 audi,a4,2007,215210,diesel,1968,4,5200
@@ -5798,7 +5798,7 @@ ford,fiesta,2018,60552,benzina,1084,4,9250
 volkswagen,golf,2010,274234,diesel,1966,4,5590
 toyota,rav4,2011,101000,diesel,2231,4,10499
 mercedes-benz,c,2016,160000,diesel,2148,4,18980
-audi,a3,2014,145000,benzina+gpl,1399,4,11300
+audi,a3,2014,145000,benzina,1399,4,11300
 volkswagen,tiguan,2017,181864,diesel,1968,4,17300
 audi,a2,2004,225000,diesel,1400,4,2750
 volkswagen,golf,2009,259000,diesel,1896,4,3750
@@ -5873,7 +5873,7 @@ dacia,duster,2014,123600,benzina,1598,4,6950
 volvo,s60,2014,133000,diesel,1560,4,9300
 volkswagen,passat,2015,229000,diesel,1598,4,9450
 bmw,seria4,2017,176000,diesel,1998,4,16700
-citroën,c5,2010,146000,diesel,1997,4,7300
+citroen,c5,2010,146000,diesel,1997,4,7300
 bmw,x5,2017,142000,diesel,1995,4,28800
 bmw,x3,2012,190000,diesel,1995,4,14990
 peugeot,207,2008,160000,benzina,1598,4,1950
@@ -5958,7 +5958,7 @@ volkswagen,jetta,2015,90334,diesel,1968,4,11000
 mercedes-benz,e,2017,121000,diesel,1950,4,27200
 ford,b-max,2016,62000,benzina,999,3,8500
 opel,corsa,2008,142000,benzina,1364,4,2600
-citroën,c2,2005,110753,diesel,1398,4,2120
+citroen,c2,2005,110753,diesel,1398,4,2120
 volkswagen,scirocco,2010,197896,benzina,1390,4,6999
 audi,a4,2015,176680,diesel,1968,4,11450
 bmw,seria1,2008,165000,benzina,1599,4,4099
@@ -5971,7 +5971,7 @@ volkswagen,passat,2016,300000,diesel,1968,4,7998
 skoda,superb,2018,250000,diesel,1968,4,10990
 land,rover,2013,178300,diesel,2179,4,16660
 bmw,seria3,2010,205500,diesel,1995,4,5850
-citroën,berlingo,2007,208931,diesel,1560,4,2990
+citroen,berlingo,2007,208931,diesel,1560,4,2990
 volkswagen,passat,2011,160250,benzina,1390,4,8199
 volkswagen,golf,2015,225000,diesel,1600,4,7490
 nissan,qashqai,2017,50000,diesel,1461,4,16800
@@ -5999,7 +5999,7 @@ dacia,logan,2015,205000,diesel,1461,4,3500
 bmw,seria5,2014,256000,benzina,1987,4,13400
 mini,cooper,2002,243968,benzina,1598,4,1800
 peugeot,508,2013,169650,diesel,1560,4,7490
-dacia,duster,2014,123400,benzina+gpl,1596,4,7200
+dacia,duster,2014,123400,benzina,1596,4,7200
 ford,edge,2018,141000,diesel,1999,4,22550
 mercedes-benz,a,2016,63020,diesel,1461,4,16500
 volkswagen,scirocco,2009,134000,benzina,1390,4,4500
@@ -6009,7 +6009,7 @@ land,rover,2019,12700,benzina,1997,4,38980
 skoda,citigo,2019,17051,benzina,999,3,8850
 opel,corsa,2004,232000,diesel,1248,4,1650
 bmw,seria1,2013,143000,diesel,1995,4,11424
-dacia,logan,2016,107000,benzina+gpl,1149,4,4200
+dacia,logan,2016,107000,benzina,1149,4,4200
 mini,clubman,2010,185091,benzina,1397,4,5390
 volkswagen,golf,2005,155000,diesel,1898,4,3000
 dacia,logan,2008,203937,benzina,1598,4,2599
@@ -6023,7 +6023,7 @@ audi,a4,2015,152000,diesel,1968,4,13450
 mercedes-benz,e,2014,260000,diesel,2145,4,11950
 mazda,cx-5,2018,127000,diesel,2200,4,18990
 dacia,logan,2015,140000,diesel,1461,4,5150
-saab,9-5,2006,210211,benzina,1985,4,3400
+saab,5-Sep,2006,210211,benzina,1985,4,3400
 fiat,500,2016,37993,benzina,875,3,9900
 mercedes-benz,glb,2020,1,diesel,1950,4,51596
 mercedes-benz,glc,2019,20500,benzina,1991,4,62463
@@ -6065,7 +6065,7 @@ bmw,x6,2009,270000,diesel,2993,4,15999
 skoda,fabia,2009,209000,diesel,1422,4,2890
 skoda,octavia,2008,136000,benzina,1595,4,2950
 mercedes-benz,gla,2019,16499,benzina,1595,4,27900
-opel,meriva,2010,148700,benzina+gpl,1398,4,5499
+opel,meriva,2010,148700,benzina,1398,4,5499
 volkswagen,passat,2011,211600,diesel,1968,4,7600
 mercedes-benz,gla,2019,2693,benzina,1595,4,27900
 bmw,seria8,2020,25,benzina,4395,8,176000
@@ -6075,7 +6075,7 @@ hyundai,accent,2005,224426,benzina,1341,4,999
 mazda,cx-5,2014,206000,diesel,2198,4,11300
 bmw,seria7,2016,68000,diesel,2993,4,49999
 volkswagen,golf,2012,194507,diesel,1598,4,4999
-citroën,ds5,2012,165378,diesel,1997,4,8800
+citroen,ds5,2012,165378,diesel,1997,4,8800
 renault,scenic,2007,239000,diesel,1870,4,2690
 bmw,seria5,2015,157000,diesel,2000,4,16900
 volkswagen,golf,2009,185000,benzina,1400,4,3490
@@ -6087,7 +6087,7 @@ mercedes-benz,g,2009,147600,diesel,3000,6,37500
 bmw,x3,2014,141442,diesel,1995,4,16950
 volkswagen,passat,2009,197000,diesel,1968,4,6400
 volkswagen,passat,2016,211000,diesel,1968,4,12800
-saab,9-3,2010,207229,diesel,1900,4,4990
+saab,3-Sep,2010,207229,diesel,1900,4,4990
 ford,galaxy,2013,156488,diesel,1997,4,10200
 porsche,cayenne,2019,1,benzina,2995,4,114537
 mercedes-benz,e,2019,1,diesel,1950,4,58822
@@ -6145,7 +6145,7 @@ peugeot,3008,2016,164000,diesel,1560,4,7550
 opel,astra,2020,1,benzina,1199,4,14990
 lexus,seria,2010,322000,hibrid,4969,8,16900
 volkswagen,tiguan,2013,194000,diesel,1968,4,12490
-citroën,ds5,2018,218000,diesel,1997,4,14500
+citroen,ds5,2018,218000,diesel,1997,4,14500
 mercedes-benz,gle,2018,44000,benzina,5461,8,88060
 ford,fiesta,2011,182495,diesel,1399,4,4490
 bmw,x3,2013,215000,diesel,1995,4,13450
@@ -6217,17 +6217,17 @@ porsche,911,2009,155000,benzina,3600,6,40850
 mitsubishi,asx,2011,140000,diesel,1800,4,7690
 toyota,aygo,2017,41260,benzina,998,3,6069
 renault,clio,2016,61004,diesel,1461,4,6902
-citroën,c4,2006,74925,benzina,1600,4,3950
+citroen,c4,2006,74925,benzina,1600,4,3950
 volkswagen,passat,2016,52000,diesel,1968,4,15500
 volkswagen,jetta,2017,159450,diesel,1968,4,9600
 mercedes-benz,v,2015,99800,diesel,2143,4,42721
 renault,megane,2014,131460,diesel,1461,4,6550
-saab,9-5,2002,259000,diesel,2171,4,1350
+saab,5-Sep,2002,259000,diesel,2171,4,1350
 mercedes-benz,ml,2009,114000,diesel,2987,4,12750
 mazda,3,2008,212000,diesel,1600,4,2699
 audi,a4,2017,75141,benzina,1395,4,22500
 audi,a4,2015,228000,diesel,1968,4,11700
-citroën,c5,2013,225000,diesel,1560,4,4399
+citroen,c5,2013,225000,diesel,1560,4,4399
 volkswagen,passat,2010,249000,diesel,1968,4,7250
 nissan,note,2014,44698,benzina,1198,4,6990
 mercedes-benz,cls,2008,211900,diesel,2987,4,7200
@@ -6244,16 +6244,16 @@ bmw,x4,2015,181000,diesel,2993,4,24500
 ford,fiesta,2018,2000,benzina,998,3,17552
 mercedes-benz,gle,2019,15800,diesel,1950,4,60880
 bmw,seria7,2012,173000,diesel,3000,6,15800
-citroën,c4,2011,185000,diesel,1560,4,4599
+citroen,c4,2011,185000,diesel,1560,4,4599
 skoda,rapid,2017,92314,diesel,1422,4,9900
-citroën,c4,2017,161000,diesel,1560,4,7670
+citroen,c4,2017,161000,diesel,1560,4,7670
 mercedes-benz,viano,2013,123144,diesel,2143,4,15950
 mercedes-benz,c,2009,201844,diesel,2143,4,9499
 skoda,fabia,2017,162039,diesel,1422,4,7913
 volkswagen,passat,2009,207000,diesel,1968,4,4700
 audi,a4,2008,202010,diesel,1968,4,7899
 mercedes-benz,gls,2018,35500,diesel,2987,4,63010
-citroën,c5,2011,183000,diesel,1997,4,4499
+citroen,c5,2011,183000,diesel,1997,4,4499
 mercedes-benz,gle,2019,19500,diesel,2987,4,68889
 mazda,cx-5,2019,1,benzina,2488,4,33913
 mazda,3,2007,188000,benzina,1400,4,2499
@@ -6262,7 +6262,7 @@ mercedes-benz,b,2007,170000,diesel,1992,4,4650
 ford,focus,2004,240000,benzina,1596,4,1350
 audi,a4,2008,298062,diesel,1968,4,6000
 mercedes-benz,gla,2019,24185,benzina,1595,4,23950
-citroën,c-elysée,2013,215000,benzina,1200,4,3690
+citroen,c-elysée,2013,215000,benzina,1200,4,3690
 audi,a6,2010,304000,diesel,1968,4,7990
 renault,fluence,2010,226000,diesel,1468,4,4550
 volkswagen,golf,2008,250000,diesel,1598,4,4990
@@ -6341,7 +6341,7 @@ volkswagen,caddy,2017,151471,diesel,1968,4,12800
 dacia,duster,2018,17596,diesel,1461,4,16541
 ford,fiesta,2016,100000,diesel,1498,4,5290
 ford,fiesta,2016,145000,diesel,1498,4,5390
-toyota,aygo,2012,173535,benzina+gpl,998,3,2700
+toyota,aygo,2012,173535,benzina,998,3,2700
 ford,kuga,2011,220000,diesel,1997,4,8450
 renault,talisman,2017,86727,diesel,1598,4,16900
 land,rover,2020,1,benzina,5000,8,135423
@@ -6364,7 +6364,7 @@ skoda,octavia,2007,199400,diesel,1896,4,3450
 mazda,cx-30,2020,1,benzina,1998,4,31838
 seat,toledo,2018,97000,benzina,999,3,8498
 volkswagen,transporter,2002,255609,diesel,2461,4,4800
-mercedes-benz,c,2007,195000,benzina+gpl,2998,4,7800
+mercedes-benz,c,2007,195000,benzina,2998,4,7800
 volvo,v60,2014,280000,diesel,1560,4,6850
 mercedes-benz,glc,2016,11087,diesel,2143,4,42450
 bmw,seria5,2015,147000,diesel,1995,4,18899
@@ -6400,7 +6400,7 @@ volkswagen,passat,2017,122834,diesel,1968,4,14200
 mercedes-benz,c,2001,54969,benzina,2295,4,3250
 nissan,juke,2012,96055,benzina,1598,4,9900
 volkswagen,passat,2011,240000,diesel,1968,4,6270
-citroën,c4,2015,147000,diesel,2000,4,10590
+citroen,c4,2015,147000,diesel,2000,4,10590
 mercedes-benz,gle,2019,35800,diesel,2987,4,58023
 bmw,seria5,2018,149500,diesel,1995,4,24999
 mercedes-benz,e,2014,287000,diesel,2143,4,12900
@@ -6430,7 +6430,7 @@ ford,focus,2017,100106,benzina,999,3,8990
 mercedes-benz,c,2012,291500,diesel,2143,4,8500
 audi,a6,2012,212300,diesel,2967,4,11980
 bmw,seria5,2017,195000,diesel,1989,4,15990
-fiat,punto,1999,187000,benzina+gpl,1288,4,3000
+fiat,punto,1999,187000,benzina,1288,4,3000
 land,rover,2019,20000,diesel,1999,4,55000
 bmw,seria3,2012,150000,diesel,1995,4,15000
 ford,transit,2020,1,diesel,1499,4,17195
@@ -6440,7 +6440,7 @@ kia,sportage,2015,105800,diesel,1995,4,14899
 volkswagen,touareg,2004,189060,diesel,2460,4,3597
 peugeot,307,2007,233000,diesel,1560,4,2000
 volkswagen,touareg,2012,262401,diesel,2967,4,13990
-citroën,c5,2009,238000,diesel,1997,4,3690
+citroen,c5,2009,238000,diesel,1997,4,3690
 mercedes-benz,gle,2019,46900,diesel,2987,4,56453
 peugeot,208,2015,61596,diesel,1560,4,7250
 volkswagen,passat,2009,210000,diesel,1896,4,6500
@@ -6486,7 +6486,7 @@ ford,transit,2006,170000,diesel,2198,4,2490
 audi,q3,2014,118000,diesel,1968,4,17838
 dacia,logan,2019,39000,benzina,999,3,8750
 bmw,x5,2015,132000,benzina,2995,4,24900
-ford,focus,2017,91743,benzina+gpl,1596,4,10900
+ford,focus,2017,91743,benzina,1596,4,10900
 volkswagen,touareg,2007,282500,diesel,2461,4,5500
 volkswagen,passat,2016,211000,diesel,1968,4,13685
 dacia,duster,2010,187026,diesel,1461,4,7750
@@ -6517,7 +6517,7 @@ bmw,x3,2017,64000,diesel,1995,4,28160
 bmw,seria5,2012,249000,diesel,1995,4,10750
 volkswagen,polo,2003,158000,benzina,1390,4,2399
 skoda,octavia,2008,168318,diesel,1968,4,3999
-citroën,c3,2010,25000,benzina,1360,4,5550
+citroen,c3,2010,25000,benzina,1360,4,5550
 kia,ceed,2016,145000,diesel,1600,4,7200
 suzuki,sx4,2015,39450,benzina,1586,4,15499
 dacia,logan,2009,148000,benzina,1600,4,2999
@@ -6534,7 +6534,7 @@ mercedes-benz,vito,2015,212000,diesel,2200,4,16900
 dodge,challenger,2017,115000,benzina,3604,8,20000
 volkswagen,passat,2010,255000,diesel,1968,4,5575
 bmw,seria1,2011,205000,diesel,1995,4,8590
-citroën,c3,2016,28100,diesel,1560,4,7650
+citroen,c3,2016,28100,diesel,1560,4,7650
 dacia,logan,2016,111650,diesel,1461,4,5450
 opel,astra,2019,24400,diesel,1598,4,14850
 skoda,fabia,2012,210000,diesel,1199,4,4250
@@ -6575,7 +6575,7 @@ volkswagen,polo,2004,190000,benzina,1200,4,1899
 skoda,octavia,2018,118900,diesel,1598,4,16053
 daihatsu,terios,1998,116000,benzina,1296,4,1990
 dacia,logan,2016,109275,benzina,898,3,5999
-citroën,berlingo,2013,179000,diesel,1560,4,4290
+citroen,berlingo,2013,179000,diesel,1560,4,4290
 mercedes-benz,gle,2017,39000,diesel,2987,4,66628
 skoda,octavia,2014,231205,diesel,1968,4,9988
 volkswagen,touareg,2008,215800,diesel,2498,4,6900
@@ -6784,11 +6784,11 @@ volvo,v40,2016,177560,diesel,1969,4,9888
 toyota,yaris,2009,120520,benzina,998,3,3350
 mitsubishi,space,2014,85205,benzina,1193,4,4490
 volkswagen,phaeton,2008,255700,diesel,2967,4,7499
-dacia,logan,2016,114000,benzina+gpl,1149,4,5490
+dacia,logan,2016,114000,benzina,1149,4,5490
 volkswagen,jetta,2007,150000,diesel,1896,4,4390
 nissan,micra,2006,186457,benzina,1240,4,2300
 skoda,superb,2018,51056,diesel,1968,4,21899
-mazda,2,2011,209000,benzina+gpl,1349,4,4999
+mazda,2,2011,209000,benzina,1349,4,4999
 hyundai,tucson,2017,92597,diesel,1995,4,18699
 bmw,seria3,2013,254000,diesel,1995,4,9490
 skoda,octavia,2012,202000,diesel,1997,4,5790
@@ -6871,7 +6871,7 @@ audi,a6,2016,158900,diesel,1968,4,22499
 mercedes-benz,ml,2014,116300,diesel,2987,4,23900
 bmw,seria1,2015,150000,diesel,1995,4,10900
 kia,optima,2018,183191,diesel,1685,4,10500
-citroën,c4,2012,197000,diesel,1560,4,5250
+citroen,c4,2012,197000,diesel,1560,4,5250
 bmw,x5,2019,77716,diesel,2993,4,64855
 bmw,x4,2019,26635,diesel,2993,4,59119
 ford,kuga,2014,145993,diesel,1997,4,12990
@@ -6892,7 +6892,7 @@ bmw,x5,2020,15302,diesel,2993,4,66142
 bmw,x5,2019,52400,diesel,2993,4,63183
 bmw,x5,2020,25546,diesel,1995,4,64398
 bmw,x5,2018,105421,diesel,2993,4,38932
-citroën,c5,2011,239000,diesel,1998,4,5250
+citroen,c5,2011,239000,diesel,1998,4,5250
 volkswagen,touran,2016,170173,diesel,1598,4,11990
 land,rover,2016,80466,diesel,1999,4,24500
 volkswagen,passat,2012,290000,diesel,1986,4,7550
@@ -6909,7 +6909,7 @@ ford,fiesta,2016,134000,diesel,1498,4,5889
 opel,grandland,2019,10000,diesel,1997,4,27989
 ford,ranger,2020,1,diesel,1998,4,52360
 bmw,seria5,2012,339500,diesel,1995,4,8900
-citroën,c3,2008,180000,benzina,1124,4,2500
+citroen,c3,2008,180000,benzina,1124,4,2500
 mini,one,2010,173900,benzina,1598,4,5999
 bmw,seria5,2015,187000,diesel,1995,4,11890
 volkswagen,passat,2009,156000,benzina,1390,4,5490
@@ -6945,7 +6945,7 @@ mini,cooper,2009,183000,diesel,1560,4,5999
 jeep,cherokee,2006,202000,diesel,2800,4,3500
 lexus,seria,2016,100000,hibrid,2495,4,20167
 kia,picanto,2006,160000,benzina,1100,4,1500
-citroën,ds5,2015,187954,diesel,1998,4,11950
+citroen,ds5,2015,187954,diesel,1998,4,11950
 bmw,seria6,2013,222000,diesel,2993,4,23900
 volkswagen,passat,2009,70000,diesel,1896,4,3850
 jaguar,e-pace,2020,2000,diesel,1999,4,42253
@@ -7070,13 +7070,13 @@ mercedes-benz,glb,2020,30,benzina,1991,4,55692
 mercedes-benz,cla,2018,32000,benzina,1991,4,30928
 mini,cooper,2010,163000,diesel,1560,4,4990
 mazda,cx-5,2019,1,benzina,2488,4,33913
-citroën,ds3,2012,194459,diesel,1398,4,5450
+citroen,ds3,2012,194459,diesel,1398,4,5450
 volkswagen,transporter,2013,233000,diesel,1968,4,9300
 mercedes-benz,glc,2020,10,diesel,1950,4,65146
 volkswagen,passat,2007,236000,diesel,1968,4,3890
 kia,ceed,2011,115000,benzina,1396,4,4900
 bmw,seria5,2018,172000,diesel,2993,4,26500
-citroën,c4,2016,107623,diesel,1560,4,10566
+citroen,c4,2016,107623,diesel,1560,4,10566
 bmw,x5,2011,292000,diesel,2993,4,12000
 bmw,seria2,2015,172000,diesel,1496,4,13700
 mazda,cx-5,2018,23888,benzina,2488,4,24990
@@ -7139,7 +7139,7 @@ ford,focus,2017,60000,benzina,999,3,7200
 bmw,x1,2012,80000,diesel,1995,4,13000
 volkswagen,tiguan,2020,15600,diesel,1968,4,35280
 volvo,v60,2016,222000,hibrid,2400,4,15300
-citroën,c5,2008,165000,diesel,2720,4,5200
+citroen,c5,2008,165000,diesel,2720,4,5200
 skoda,octavia,2010,160000,benzina,1798,4,5990
 ford,focus,2012,189000,diesel,1560,4,4850
 volkswagen,passat,2013,228000,diesel,1968,4,7850
@@ -7163,7 +7163,7 @@ mercedes-benz,gle,2018,11300,diesel,2143,4,51408
 land,rover,2009,243253,diesel,2720,4,10000
 dacia,duster,2017,135000,diesel,1461,4,8950
 lexus,seria,2015,70353,hibrid,3456,6,39900
-volkswagen,passat,2008,285000,benzina+gpl,1598,4,3850
+volkswagen,passat,2008,285000,benzina,1598,4,3850
 audi,a6,2012,98000,diesel,2967,4,22900
 bmw,seria1,2017,88000,diesel,1496,4,15900
 nissan,navara,2005,269552,diesel,2488,4,4300
@@ -7211,7 +7211,7 @@ opel,astra,2008,170000,diesel,1910,4,3190
 bmw,seria5,2019,13461,diesel,1995,4,48434
 volkswagen,touareg,2012,230000,diesel,2986,4,14900
 ford,kuga,2009,160700,diesel,1997,4,7999
-citroën,c3,2018,33000,diesel,1600,4,10500
+citroen,c3,2018,33000,diesel,1600,4,10500
 skoda,rapid,2017,52000,benzina,1197,4,10591
 kia,sportage,2019,20991,diesel,1995,4,28900
 volvo,xc,2010,220945,diesel,2400,4,12499
@@ -7275,14 +7275,14 @@ mercedes-benz,e,2013,277559,diesel,2143,4,12650
 audi,a6,2011,168559,diesel,2967,4,9950
 ford,focus,2019,700,benzina,1498,4,22312
 ford,focus,2019,1,benzina,998,3,17515
-mazda,cx-7,2007,230000,benzina+gpl,2300,4,4200
+mazda,cx-7,2007,230000,benzina,2300,4,4200
 audi,s5,2017,142000,benzina,2993,4,30900
 ford,puma,2020,1,hibrid,998,3,20534
 jaguar,xf,2014,67800,diesel,2179,4,17990
 renault,megane,2016,86000,benzina,1600,4,13000
 bmw,x3,2019,20100,diesel,1998,4,42700
 mercedes-benz,cls,2011,225652,diesel,2987,4,9500
-dacia,logan,2013,120000,benzina+gpl,1149,4,2750
+dacia,logan,2013,120000,benzina,1149,4,2750
 volkswagen,touareg,2015,134374,diesel,2967,4,25450
 audi,a6,2009,218000,diesel,1968,4,6900
 bmw,x3,2018,27280,diesel,1995,4,34486
@@ -7380,7 +7380,7 @@ volkswagen,golf,2012,243636,benzina,1395,4,5150
 dacia,duster,2015,123000,diesel,1461,4,9550
 ford,mondeo,2018,110200,hibrid,1999,4,13790
 volkswagen,touran,2009,265000,diesel,1896,4,4300
-citroën,c5,2011,75000,diesel,1560,4,6000
+citroen,c5,2011,75000,diesel,1560,4,6000
 bmw,seria5,2017,94471,diesel,1995,4,32106
 bmw,seria3,2012,78000,diesel,2000,4,17500
 skoda,octavia,2014,163500,diesel,1968,4,12900
@@ -7427,7 +7427,7 @@ volkswagen,golf,2007,177000,benzina,1398,4,2950
 volkswagen,passat,2012,186500,diesel,1958,4,6650
 volkswagen,golf,2017,75000,diesel,1600,4,13923
 ford,focus,2008,362366,diesel,1560,4,1390
-citroën,c5,2003,280000,diesel,2000,4,1550
+citroen,c5,2003,280000,diesel,2000,4,1550
 dacia,logan,2015,133188,benzina,1149,4,4760
 renault,megane,2005,168600,diesel,1461,4,2850
 mercedes-benz,e,2020,1,diesel,1950,4,74035
@@ -7453,7 +7453,7 @@ mazda,6,2016,207000,diesel,2200,4,9520
 mercedes-benz,c,2008,290000,diesel,2149,4,5800
 mitsubishi,pajero,2000,245953,benzina,1834,4,2850
 volkswagen,passat,2017,163107,diesel,1968,4,13589
-citroën,c2,2005,88000,benzina,1124,4,900
+citroen,c2,2005,88000,benzina,1124,4,900
 bmw,x3,2014,235000,diesel,1998,4,14900
 volkswagen,polo,2019,35000,benzina,999,3,6100
 volkswagen,passat,2012,228285,diesel,1968,4,10900
@@ -7475,7 +7475,7 @@ volkswagen,touareg,2015,132000,diesel,2967,4,19990
 land,rover,2012,185200,diesel,3000,6,12990
 bmw,seria5,2019,7,hibrid,1998,4,58310
 renault,trafic,2015,114950,diesel,1600,4,12399
-chevrolet,cruze,2012,213500,benzina+gpl,1800,4,5999
+chevrolet,cruze,2012,213500,benzina,1800,4,5999
 mercedes-benz,vito,2015,179000,diesel,2200,4,13999
 volkswagen,eos,2007,125300,benzina,1600,4,5499
 abarth,500,2017,19000,benzina,1400,4,14990
@@ -7490,14 +7490,14 @@ volkswagen,golf,2010,155400,benzina,1198,4,5190
 bmw,seria5,2011,260000,benzina,3000,6,10900
 bmw,seria1,2012,188000,diesel,1995,4,8800
 volkswagen,passat,2015,246253,diesel,1968,4,13699
-citroën,jumpy,2017,27137,diesel,1997,4,19900
+citroen,jumpy,2017,27137,diesel,1997,4,19900
 kia,sportage,2014,119000,diesel,1995,4,14990
 ford,kuga,2017,56000,diesel,2000,4,20000
 mercedes-benz,vito,2018,46501,diesel,1598,4,25000
 volkswagen,passat,2015,155400,diesel,1598,4,7990
 skoda,octavia,2015,152317,diesel,1968,4,13350
 volkswagen,touareg,2016,130437,diesel,2993,4,26990
-citroën,c5,2011,249806,diesel,1560,4,5450
+citroen,c5,2011,249806,diesel,1560,4,5450
 bmw,seria8,2020,6500,benzina,2998,4,91084
 audi,a4,2008,209000,diesel,1967,4,6800
 mercedes-benz,e,2020,3000,hibrid,1991,4,61161
@@ -7517,7 +7517,7 @@ mercedes-benz,slc,2000,130000,benzina,2300,4,850
 mercedes-benz,gla,2015,73000,benzina,2000,4,33000
 mercedes-benz,c,2019,3000,benzina,1497,4,42596
 ford,focus,2020,1,benzina,999,3,18999
-citroën,ds3,2012,78000,diesel,1560,4,7500
+citroen,ds3,2012,78000,diesel,1560,4,7500
 mazda,6,2015,147573,diesel,2191,4,15946
 volkswagen,golf,2020,1000,benzina,1498,4,20500
 bmw,seria1,2019,4000,diesel,1995,4,36771
@@ -7607,13 +7607,13 @@ volkswagen,scirocco,2009,199490,benzina,1390,4,5290
 mercedes-benz,vito,2020,10,diesel,1950,4,43997
 bmw,x6,2020,20,diesel,2993,4,86870
 mercedes-benz,e,2014,159500,diesel,2143,4,15990
-citroën,c4,2007,166060,benzina,1749,4,3590
+citroen,c4,2007,166060,benzina,1749,4,3590
 skoda,kodiaq,2017,145000,diesel,1968,4,19500
 audi,a4,2016,165000,diesel,1968,4,13190
 bmw,x3,2005,340000,diesel,1995,4,5200
 mercedes-benz,e,2014,189600,diesel,2143,4,16500
 bmw,seria3,2010,230000,diesel,1995,4,4500
-citroën,c5,2012,167750,diesel,1997,4,6200
+citroen,c5,2012,167750,diesel,1997,4,6200
 nissan,qashqai,2011,220000,diesel,1500,4,7650
 kia,ceed,2017,30000,benzina,1400,4,10800
 peugeot,3008,2016,175000,diesel,1560,4,9500
@@ -7711,7 +7711,7 @@ land,rover,2003,160000,diesel,1951,4,2900
 toyota,corolla,2018,71202,benzina,1598,4,14899
 opel,astra,2016,59545,benzina,1598,4,10999
 volkswagen,passat,2007,293000,diesel,2000,4,3299
-citroën,c4,2005,235266,diesel,1560,4,1500
+citroen,c4,2005,235266,diesel,1560,4,1500
 audi,a8,2015,135000,benzina,2995,4,25000
 volkswagen,golf,2012,147000,diesel,1595,4,5990
 mini,one,2003,183000,benzina,1400,4,2000
@@ -7732,7 +7732,7 @@ bmw,seria5,2015,280000,diesel,2998,4,15800
 volkswagen,polo,2006,200123,benzina,1200,4,2290
 nissan,qashqai,2011,172000,diesel,1461,4,6499
 volkswagen,passat,2016,181562,diesel,1968,4,13499
-dacia,sandero,2010,252800,benzina+gpl,1398,4,2500
+dacia,sandero,2010,252800,benzina,1398,4,2500
 audi,a4,2012,210200,diesel,2967,4,12980
 nissan,juke,2012,219000,diesel,1461,4,6490
 opel,astra,2006,187500,diesel,1248,4,1900
@@ -7744,7 +7744,7 @@ renault,laguna,2002,231000,benzina,1783,4,750
 mercedes-benz,c,2002,210000,benzina,1998,4,1100
 volkswagen,passat,2008,243500,diesel,1968,4,4350
 volkswagen,touran,2014,195000,diesel,1600,4,7490
-citroën,c4,2015,165500,diesel,1560,4,6990
+citroen,c4,2015,165500,diesel,1560,4,6990
 fiat,fullback,2018,33800,diesel,2442,4,23700
 volkswagen,passat,2013,230000,diesel,2000,4,12999
 audi,a4,2010,240000,diesel,1968,4,6690
@@ -7814,7 +7814,7 @@ audi,a4,2002,295000,diesel,1896,4,2850
 opel,combo,2008,145000,diesel,1248,4,2998
 mini,cooper,2003,143000,benzina,1598,4,1850
 volkswagen,polo,2007,130000,benzina,1198,4,2580
-dacia,logan,2018,91000,benzina+gpl,898,3,3749
+dacia,logan,2018,91000,benzina,898,3,3749
 mazda,2,2015,94500,benzina,1500,4,8200
 bmw,seria5,2013,131000,diesel,1995,4,12700
 fiat,bravo,2009,203000,diesel,1910,4,1950
@@ -7882,7 +7882,7 @@ volkswagen,golf,2009,213000,diesel,1968,4,4950
 mercedes-benz,b,2009,130000,diesel,1991,4,4490
 toyota,yaris,2002,160000,benzina,998,3,800
 bmw,m4,2015,65442,benzina,2979,4,40000
-ford,mondeo,2001,287000,benzina+gpl,1798,4,2000
+ford,mondeo,2001,287000,benzina,1798,4,2000
 toyota,avensis,2006,218000,diesel,1995,4,4000
 bmw,seria1,2011,214000,benzina,1995,4,4650
 bmw,seria5,2013,278000,diesel,1995,4,11990
@@ -7925,7 +7925,7 @@ dacia,duster,2017,135946,diesel,1461,4,8950
 bmw,seria5,2006,370000,diesel,3000,6,9800
 nissan,juke,2014,33843,benzina,1598,4,9790
 bmw,seria8,2019,34500,diesel,2993,4,72500
-citroën,c3,2010,213000,diesel,1598,4,3490
+citroen,c3,2010,213000,diesel,1598,4,3490
 opel,insignia,2014,95000,diesel,1956,4,11000
 volkswagen,passat,2013,257953,diesel,1968,4,7800
 skoda,superb,2009,244600,benzina,1798,4,5990
@@ -7991,7 +7991,7 @@ seat,leon,2007,32000,benzina,1984,4,8000
 volkswagen,passat,2013,198000,diesel,1968,4,11500
 land,rover,2017,136000,diesel,1999,4,22490
 dacia,duster,2018,35400,benzina,1600,4,6750
-citroën,c5,2012,168000,diesel,1997,4,6200
+citroen,c5,2012,168000,diesel,1997,4,6200
 hyundai,ix35,2014,155000,diesel,1995,4,11590
 bmw,seria3,2007,181500,diesel,2995,4,7000
 audi,q5,2015,134000,benzina,1998,4,17800
@@ -8160,10 +8160,10 @@ volkswagen,golf,2010,195000,benzina,1390,4,5290
 bmw,seria5,2017,46000,benzina,2996,4,42000
 mercedes-benz,gle,2017,76467,diesel,2143,4,34498
 volkswagen,transporter,2015,64368,diesel,1968,4,19550
-citroën,c5,2012,158000,diesel,1997,4,6899
+citroen,c5,2012,158000,diesel,1997,4,6899
 mercedes-benz,s,2012,65000,diesel,2987,4,19999
 skoda,roomster,2007,171000,benzina,1600,4,2790
-dacia,sandero,2015,114000,benzina+gpl,895,3,4250
+dacia,sandero,2015,114000,benzina,895,3,4250
 volkswagen,tiguan,2018,143000,diesel,1968,4,19990
 bmw,x5,2016,95380,hibrid,1997,4,44018
 mazda,cx-5,2013,200000,diesel,2191,4,9290
@@ -8171,7 +8171,7 @@ peugeot,206,2006,182000,benzina,1400,4,1390
 bmw,seria7,2016,120500,diesel,2993,4,36300
 mercedes-benz,c,2018,33900,benzina,1991,4,26580
 skoda,roomster,2012,110000,benzina,1200,4,5550
-ford,focus,2006,245000,benzina+cng,1800,4,1900
+ford,focus,2006,245000,benzina,1800,4,1900
 porsche,macan,2016,42000,benzina,2997,4,54900
 hyundai,ix35,2013,224000,diesel,1685,4,7800
 mercedes-benz,vito,2016,70000,diesel,2198,4,23679
@@ -8273,7 +8273,7 @@ bmw,seria5,2008,259600,diesel,1995,4,7490
 ford,fiesta,2004,151000,benzina,1400,4,2490
 audi,q5,2016,229000,diesel,2967,4,23750
 land,rover,2010,149000,diesel,2993,4,15500
-citroën,c4,2011,260000,diesel,1997,4,3950
+citroen,c4,2011,260000,diesel,1997,4,3950
 renault,clio,2015,88413,diesel,1461,4,5999
 volkswagen,golf,2005,203000,benzina,1390,4,3200
 suzuki,wagon,2003,97000,benzina,1298,4,1999
@@ -8388,7 +8388,7 @@ bmw,seria3,2006,269000,diesel,1998,4,6700
 audi,a4,2010,233000,diesel,1968,4,7998
 mercedes-benz,e,2014,142500,diesel,2143,4,11200
 mercedes-benz,gle,2015,128000,diesel,2987,4,38851
-chevrolet,aveo,2007,130200,benzina+gpl,1150,4,1050
+chevrolet,aveo,2007,130200,benzina,1150,4,1050
 volkswagen,passat,2012,178600,diesel,1968,4,8699
 volkswagen,passat,2015,234000,diesel,1968,4,13300
 ford,s-max,2016,156000,diesel,1997,4,12850
@@ -8430,9 +8430,9 @@ mazda,cx-5,2013,211000,diesel,2191,4,10490
 dacia,logan,2005,100000,benzina,1598,4,1785
 volkswagen,tiguan,2016,139000,diesel,1968,4,14990
 ford,mondeo,2015,40000,diesel,1999,4,19040
-toyota,camry,2007,160000,benzina+gpl,2400,4,5900
+toyota,camry,2007,160000,benzina,2400,4,5900
 porsche,cayenne,2015,190000,diesel,4134,8,36000
-citroën,c4,2008,220000,diesel,1560,4,3150
+citroen,c4,2008,220000,diesel,1560,4,3150
 volkswagen,golf,2010,190,benzina,1390,4,5950
 bmw,seria5,2018,171482,diesel,1995,4,29900
 mercedes-benz,a,2005,189254,diesel,1991,4,3500
@@ -8442,7 +8442,7 @@ volkswagen,golf,2014,165000,diesel,1598,4,7590
 ford,mondeo,2018,40275,hibrid,2000,4,17600
 opel,astra,2011,159000,diesel,1686,4,5390
 volkswagen,passat,2015,244000,diesel,1998,4,13990
-citroën,c4,2008,193000,diesel,1600,4,3999
+citroen,c4,2008,193000,diesel,1600,4,3999
 bmw,x5,2008,203000,diesel,2993,4,8000
 skoda,octavia,2012,230000,diesel,1997,4,5500
 audi,a3,2008,220000,diesel,1968,4,4500
@@ -8456,7 +8456,7 @@ mercedes-benz,e,2001,370000,diesel,2189,4,2500
 audi,a6,2016,103300,diesel,1995,4,20230
 volkswagen,passat,2012,243000,diesel,1600,4,5999
 bmw,seria3,2013,257000,diesel,1995,4,10590
-citroën,c4,2014,179000,diesel,1560,4,7250
+citroen,c4,2014,179000,diesel,1560,4,7250
 ford,transit,2004,111111,diesel,1998,4,4150
 volkswagen,passat,2008,112000,diesel,1968,4,6699
 dacia,logan,2014,163000,diesel,1461,4,4690
@@ -8483,13 +8483,13 @@ mercedes-benz,g,1980,200000,diesel,3000,6,12000
 seat,exeo,2010,258000,diesel,1968,4,4250
 mini,countryman,2012,150000,diesel,1995,4,8990
 renault,laguna,2009,200431,diesel,1995,4,4990
-suzuki,vitara,1998,235111,benzina+gpl,1998,4,3700
+suzuki,vitara,1998,235111,benzina,1998,4,3700
 bmw,seria5,2001,237000,diesel,1951,4,2900
 fiat,doblo,2012,182753,diesel,1248,4,3700
 mercedes-benz,e,2014,142500,diesel,2143,4,11200
 volkswagen,tiguan,2008,174000,diesel,1995,4,7250
 renault,laguna,2008,243000,diesel,1485,4,3999
-citroën,c4,2012,238000,diesel,1560,4,4650
+citroen,c4,2012,238000,diesel,1560,4,4650
 mazda,cx-7,2010,272000,diesel,2200,4,6600
 seat,leon,2014,77000,benzina,1798,4,11848
 opel,astra,2007,230000,benzina,1389,4,2499
@@ -8519,11 +8519,11 @@ bmw,x3,2011,208700,diesel,1995,4,12990
 audi,a4,2014,228400,diesel,1968,4,9330
 skoda,octavia,2005,212000,diesel,1968,4,2999
 renault,twingo,2004,165000,benzina,1149,4,799
-citroën,jumper,2007,230000,diesel,2198,4,3999
+citroen,jumper,2007,230000,diesel,2198,4,3999
 ford,galaxy,2002,299000,diesel,1896,4,1999
 bmw,seria3,2008,226000,diesel,1995,4,4499
-skoda,octavia,2006,229000,benzina+gpl,1596,4,2999
-citroën,c3,2014,252000,diesel,1398,4,4499
+skoda,octavia,2006,229000,benzina,1596,4,2999
+citroen,c3,2014,252000,diesel,1398,4,4499
 mazda,premacy,2004,171000,diesel,1995,4,1499
 seat,alhambra,2002,221000,diesel,1896,4,2199
 mitsubishi,space,2000,243000,benzina,1299,4,1199
@@ -8594,7 +8594,7 @@ audi,a3,2017,149700,diesel,1598,4,13635
 opel,crossland,2020,1,benzina,1199,4,16229
 skoda,superb,2014,232000,diesel,1996,4,10999
 skoda,rapid,2017,138103,diesel,1422,4,6750
-citroën,berlingo,2017,152067,diesel,1560,4,7450
+citroen,berlingo,2017,152067,diesel,1560,4,7450
 ford,fiesta,2003,150000,benzina,1388,4,1990
 bmw,seria3,2009,315000,diesel,1995,4,5500
 ford,fiesta,2010,168000,diesel,1399,4,3499
@@ -8733,7 +8733,7 @@ ford,focus,2017,126732,diesel,1500,4,11600
 mercedes-benz,gle,2016,60000,diesel,2143,4,36866
 ford,fiesta,2006,108000,benzina,1300,4,1999
 skoda,octavia,2012,229000,benzina,1390,4,4650
-citroën,c-elysée,2018,17567,benzina+gpl,1200,4,9480
+citroen,c-elysée,2018,17567,benzina,1200,4,9480
 ford,focus,2014,172000,diesel,1600,4,6200
 renault,koleos,2017,71033,diesel,1995,4,23999
 mercedes-benz,e,2012,204254,diesel,2987,4,19900
@@ -8827,7 +8827,7 @@ opel,astra,2017,138000,diesel,1598,4,8789
 dacia,sandero,2016,17470,benzina,898,3,6399
 bmw,seria4,2019,21420,diesel,1995,4,33900
 mercedes-benz,glc,2018,36119,diesel,2143,4,43900
-mazda,cx-9,2008,160000,benzina+gpl,3726,8,10000
+mazda,cx-9,2008,160000,benzina,3726,8,10000
 fiat,500x,2015,59500,diesel,1598,4,10990
 bmw,seria3,2017,202000,diesel,1995,4,13000
 bmw,seria5,2017,197505,diesel,1998,4,29800
@@ -9044,14 +9044,14 @@ mercedes-benz,s,2017,81000,diesel,2987,4,49900
 peugeot,407,2007,267000,diesel,1560,4,2600
 skoda,octavia,2019,28696,benzina,999,3,15900
 volkswagen,passat,2006,240000,diesel,1900,4,3199
-dacia,logan,2010,106082,benzina+gpl,1598,4,3990
+dacia,logan,2010,106082,benzina,1598,4,3990
 ford,s-max,2011,160471,diesel,1997,4,6990
 audi,a6,2007,210853,diesel,2000,4,5900
 bmw,x1,2019,6500,diesel,1995,4,40448
 peugeot,308,2016,219624,diesel,1560,4,7950
 dacia,logan,2016,113348,diesel,1461,4,5450
 hyundai,i20,2017,74000,diesel,1120,4,7050
-citroën,berlingo,2017,134944,diesel,1560,4,8000
+citroen,berlingo,2017,134944,diesel,1560,4,8000
 audi,a3,2011,250000,diesel,1598,4,6499
 nissan,micra,2019,4133,benzina,999,3,9990
 lexus,nx,2017,28765,benzina,1998,4,30500
@@ -9104,12 +9104,12 @@ bmw,x5,2008,189563,diesel,3000,6,8900
 volkswagen,sharan,2014,241437,diesel,1968,4,11990
 volkswagen,touran,2010,297000,diesel,1896,4,4999
 skoda,fabia,2008,164000,benzina,1196,4,2400
-dodge,ram,2017,22159,benzina+gpl,5654,8,77350
+dodge,ram,2017,22159,benzina,5654,8,77350
 ford,mondeo,2017,90000,diesel,1997,4,13500
 ford,mondeo,2017,92000,diesel,1498,4,12950
 ford,ecosport,2016,116000,diesel,1498,4,10500
 skoda,octavia,2010,268500,diesel,1598,4,4599
-citroën,c4,2008,214000,diesel,1560,4,2550
+citroen,c4,2008,214000,diesel,1560,4,2550
 ford,transit,2017,473000,diesel,1995,4,9780
 bmw,seria5,2015,246676,diesel,1995,4,16650
 mercedes-benz,clk,2006,196700,benzina,1790,4,5499
@@ -9404,7 +9404,7 @@ audi,s5,2012,81000,benzina,2995,4,16050
 opel,combo,2020,1,benzina,1199,4,13635
 opel,astra,2005,173000,benzina,1598,4,2299
 nissan,qashqai,2014,172000,diesel,1461,4,10499
-citroën,c4,2005,218000,diesel,1997,4,2200
+citroen,c4,2005,218000,diesel,1997,4,2200
 skoda,rapid,2016,155000,benzina,1197,4,6200
 mercedes-benz,s,2015,197000,diesel,2987,4,33999
 mitsubishi,l200,1999,275000,diesel,2500,4,10000
@@ -9475,7 +9475,7 @@ bmw,seria3,2016,192000,diesel,1995,4,14950
 volkswagen,passat,2002,188978,benzina,1984,4,3150
 volkswagen,passat,2016,184425,diesel,1968,4,12700
 toyota,yaris,2008,289418,benzina,998,3,1600
-citroën,c4,2008,192727,diesel,1560,4,3950
+citroen,c4,2008,192727,diesel,1560,4,3950
 peugeot,308,2015,131000,diesel,1560,4,5990
 mercedes-benz,s,2019,40000,diesel,2925,4,89833
 renault,megane,2007,230000,benzina,1598,4,1650
@@ -9565,7 +9565,7 @@ mercedes-benz,e,2018,28000,diesel,1950,4,43423
 volvo,xc,2012,79000,diesel,2400,4,15000
 volkswagen,golf,2015,190000,diesel,1598,4,8250
 volkswagen,passat,2016,64783,diesel,1968,4,23490
-dacia,logan,2008,138755,benzina+gpl,1400,4,4500
+dacia,logan,2008,138755,benzina,1400,4,4500
 mazda,6,2004,292000,diesel,1998,4,1699
 mazda,6,2005,181000,benzina,2261,4,1699
 mazda,6,2004,228000,benzina,2261,4,1599
@@ -9646,7 +9646,7 @@ seat,exeo,2009,196000,diesel,1968,4,6299
 renault,twingo,2011,152104,diesel,1461,4,2790
 audi,a7,2016,68500,diesel,2967,4,29990
 opel,astra,2003,224000,benzina,1598,4,1950
-citroën,c4,2013,202000,diesel,1598,4,7390
+citroen,c4,2013,202000,diesel,1598,4,7390
 bmw,seria5,2014,228000,diesel,1995,4,14750
 skoda,rapid,2017,155000,benzina,1197,4,5355
 volkswagen,tiguan,2017,150539,diesel,1968,4,24199
@@ -9662,7 +9662,7 @@ audi,a6,2012,301800,diesel,2998,4,12000
 skoda,octavia,2010,118000,benzina,1798,4,7900
 bmw,seria2,2017,210000,diesel,1496,4,11950
 renault,trafic,2007,285000,diesel,1870,4,6500
-citroën,c4,2014,79700,diesel,1997,4,8999
+citroen,c4,2014,79700,diesel,1997,4,8999
 renault,megane,2019,8581,benzina,1332,4,14760
 mercedes-benz,gle,2017,103000,diesel,2987,4,49713
 volkswagen,polo,2009,182000,diesel,1422,4,2950
@@ -9716,7 +9716,7 @@ audi,a4,2007,151833,diesel,1984,4,5499
 mercedes-benz,gls,2020,6,diesel,2925,4,111929
 suzuki,alto,2010,120000,benzina,996,3,2950
 volkswagen,passat,2010,240000,diesel,1600,4,5650
-citroën,c2,2004,130000,benzina,1360,4,1550
+citroen,c2,2004,130000,benzina,1360,4,1550
 renault,captur,2019,3963,benzina,898,3,14947
 peugeot,407,2004,197700,diesel,1997,4,2450
 audi,q5,2010,159954,benzina,1984,4,10790
@@ -9748,7 +9748,7 @@ audi,a5,2018,180000,diesel,2967,4,23999
 volkswagen,golf,2003,224000,benzina,1598,4,2350
 opel,zafira,2004,205000,benzina,1798,4,1950
 smart,forfour,2004,176000,benzina,1332,4,2450
-gwm,steed,2010,129000,benzina+gpl,2400,4,3950
+gwm,steed,2010,129000,benzina,2400,4,3950
 bmw,seria1,2013,130000,benzina,1580,4,7799
 audi,a6,2018,198000,diesel,1998,4,21800
 bmw,x6,2012,154000,diesel,2993,4,18000
@@ -9827,7 +9827,7 @@ bmw,seria7,2020,5000,diesel,2993,4,103411
 mercedes-benz,a,2019,19043,benzina,1332,4,28980
 volkswagen,california,2020,1,diesel,1968,4,63368
 nissan,qashqai+2,2009,227000,diesel,1998,4,5300
-citroën,c5,2013,203530,diesel,1560,4,5750
+citroen,c5,2013,203530,diesel,1560,4,5750
 volkswagen,golf,2004,272000,diesel,1896,4,3400
 bmw,x5,2011,215000,diesel,3000,6,16000
 volkswagen,passat,2010,288000,diesel,1980,4,4100
@@ -9842,7 +9842,7 @@ ford,kuga,2020,1,benzina,1499,4,24627
 opel,zafira,2016,178800,diesel,1598,4,7499
 volvo,xc,2016,151000,diesel,1969,4,16950
 volkswagen,golf,2003,184100,benzina,1400,4,2399
-opel,meriva,2016,238500,benzina+gpl,1400,4,6999
+opel,meriva,2016,238500,benzina,1400,4,6999
 ford,fiesta,2009,209310,diesel,1400,4,4199
 opel,astra,2005,186903,diesel,1700,4,2299
 mercedes-benz,a,2009,77000,diesel,1991,4,4900
@@ -9876,7 +9876,7 @@ volvo,xc,2011,174000,diesel,2400,4,10950
 land,rover,2018,62500,diesel,1999,4,39270
 bmw,x3,2020,6500,benzina,1998,4,55811
 renault,laguna,2009,300000,diesel,1995,4,6400
-citroën,berlingo,2011,226000,diesel,1560,4,4250
+citroen,berlingo,2011,226000,diesel,1560,4,4250
 mercedes-benz,gle,2018,28229,diesel,2987,4,55454
 audi,a4,2018,32093,diesel,1968,4,39200
 mercedes-benz,gle,2019,9800,diesel,2925,4,94724
@@ -9895,7 +9895,7 @@ opel,astra,2012,226000,diesel,1700,4,4250
 mercedes-benz,e,2019,64000,diesel,2198,4,28900
 audi,a6,2018,80000,diesel,2967,4,27300
 ford,mondeo,2017,28000,diesel,1997,4,18900
-citroën,c5,2015,280000,diesel,1560,4,6299
+citroen,c5,2015,280000,diesel,1560,4,6299
 hyundai,grand,2006,221000,diesel,2188,4,4000
 audi,a3,2010,280000,diesel,1998,4,6800
 mini,countryman,2013,194000,diesel,1598,4,8700
@@ -9946,7 +9946,7 @@ volkswagen,passat,2014,275380,diesel,1968,4,7490
 bmw,x1,2017,157000,diesel,1998,4,19700
 bmw,seria3,2016,24791,benzina,1499,4,15000
 land,rover,2013,198374,diesel,2993,4,17900
-citroën,ds5,2013,186000,hibrid,2000,4,8650
+citroen,ds5,2013,186000,hibrid,2000,4,8650
 land,rover,2019,28000,diesel,2993,4,49990
 mercedes-benz,s,2017,25000,benzina,5461,8,109000
 mercedes-benz,glc,2017,148000,diesel,2143,4,34800
@@ -9986,7 +9986,7 @@ toyota,aygo,2009,159000,benzina,998,3,2290
 bmw,x5,2012,281000,diesel,2998,4,14590
 ford,maverick,1997,245000,diesel,2700,4,3000
 toyota,urban,2010,228500,diesel,1398,4,5500
-citroën,berlingo,2004,247000,benzina,1587,4,1350
+citroen,berlingo,2004,247000,benzina,1587,4,1350
 volkswagen,passat,2010,257000,diesel,1968,4,5950
 volkswagen,golf,2012,220000,diesel,1598,4,6100
 mercedes-benz,w123,1980,82000,diesel,2998,4,11999
@@ -10168,7 +10168,7 @@ opel,corsa,2019,8700,benzina,1398,4,9520
 audi,a4,2012,198000,benzina,1798,4,8490
 subaru,forester,2005,174000,benzina,1994,4,6390
 audi,a6,2017,180000,diesel,1968,4,24500
-citroën,c8,2003,273000,diesel,2179,4,1999
+citroen,c8,2003,273000,diesel,2179,4,1999
 volkswagen,sharan,2014,238000,diesel,1968,4,10999
 audi,a6,2017,129000,diesel,2999,4,26894
 toyota,c-hr,2019,10648,hibrid,1798,4,20900
@@ -10238,7 +10238,7 @@ volkswagen,sharan,2012,215400,diesel,1996,4,8599
 ford,c-max,2008,321000,diesel,1753,4,2699
 bmw,x3,2008,241000,diesel,1995,4,5990
 bmw,seria3,2012,171507,diesel,1995,4,11299
-citroën,c4,2012,212000,diesel,1560,4,4190
+citroen,c4,2012,212000,diesel,1560,4,4190
 opel,astra,2008,122324,benzina,1598,4,3650
 volkswagen,golf,2014,171000,diesel,1600,4,7499
 bmw,seria3,2010,202745,diesel,1995,4,6890
@@ -10253,9 +10253,9 @@ suzuki,sx4,2008,210000,benzina,1586,4,1900
 mercedes-benz,e,2015,186758,diesel,2143,4,15300
 bmw,seria7,2016,94500,diesel,2986,4,33500
 mercedes-benz,glk,2011,285000,diesel,2143,4,10750
-citroën,c4,2008,194298,diesel,1560,4,4350
+citroen,c4,2008,194298,diesel,1560,4,4350
 audi,a6,2019,72000,diesel,2967,4,46650
-citroën,c4,2011,215071,diesel,1560,4,4350
+citroen,c4,2011,215071,diesel,1560,4,4350
 honda,cr-v,2014,83411,diesel,2200,4,15800
 porsche,boxster,2004,67000,benzina,2700,4,19700
 bmw,x6,2020,1,diesel,2993,4,89853
@@ -10312,7 +10312,7 @@ opel,zafira,2009,289000,diesel,1700,4,3150
 volkswagen,passat,2015,109000,diesel,1998,4,15990
 opel,corsa,2001,122100,benzina,1199,4,2250
 audi,a4,2014,198000,diesel,2000,4,8999
-saab,9-3,2008,164000,diesel,1910,4,3500
+saab,3-Sep,2008,164000,diesel,1910,4,3500
 mazda,3,2005,220000,diesel,1568,4,2290
 nissan,qashqai,2018,158000,diesel,1600,4,14250
 mercedes-benz,glc,2016,131295,diesel,2143,4,25800
@@ -10502,7 +10502,7 @@ renault,megane,2006,290000,diesel,1870,4,2199
 volkswagen,golf,2016,200500,diesel,1598,4,8190
 skoda,octavia,2016,111890,diesel,1598,4,9401
 audi,a6,2011,261000,diesel,2698,4,5490
-daihatsu,terios,2002,197000,benzina+gpl,1300,4,2200
+daihatsu,terios,2002,197000,benzina,1300,4,2200
 porsche,cayenne,2020,20,benzina,3996,8,172550
 mercedes-benz,gla,2020,2209,benzina,1332,4,38068
 volkswagen,golf,2013,140000,diesel,1598,4,6750
@@ -10535,7 +10535,7 @@ volkswagen,golf,2011,249000,diesel,1598,4,4490
 audi,q5,2012,222455,diesel,1968,4,13490
 volkswagen,passat,2009,236750,diesel,1968,4,5800
 ford,focus,2014,247500,diesel,1560,4,5189
-citroën,c1,2011,60450,benzina,998,3,4100
+citroen,c1,2011,60450,benzina,998,3,4100
 mercedes-benz,gle,2020,3,benzina,2999,4,84371
 volkswagen,caddy,2020,1,diesel,1968,4,25044
 opel,ampera,2013,199999,hibrid,1398,4,9499
@@ -10569,7 +10569,7 @@ renault,kadjar,2016,95000,diesel,1500,4,11990
 audi,a4,2009,105000,benzina,1798,4,8300
 ford,f150,2012,140048,benzina,3500,6,19999
 ford,galaxy,2012,245000,diesel,1997,4,6550
-toyota,corolla,2008,220000,benzina+gpl,1598,4,3950
+toyota,corolla,2008,220000,benzina,1598,4,3950
 mini,cooper,2015,41000,diesel,1496,4,15251
 ford,transit,2015,171000,diesel,2198,4,14399
 mercedes-benz,s,2008,185000,diesel,2987,4,14479
@@ -10581,7 +10581,7 @@ volvo,s90,2018,59000,hibrid,1969,4,40329
 opel,antara,2008,208000,diesel,1991,4,5500
 audi,q3,2016,58074,diesel,1968,4,22015
 dacia,logan,2017,39000,benzina,999,3,6700
-citroën,c2,2006,172428,benzina,1124,4,1000
+citroen,c2,2006,172428,benzina,1124,4,1000
 opel,astra,2017,110200,diesel,1598,4,9990
 renault,megane,2016,61068,diesel,1461,4,14042
 ford,b-max,2015,158000,diesel,1560,4,7490
@@ -10651,7 +10651,7 @@ mercedes-benz,gla,2018,11006,diesel,2143,4,34153
 bmw,seria3,2010,290427,diesel,1995,4,7800
 renault,symbol,2008,240000,benzina,1149,4,2222
 mercedes-benz,glc,2017,179000,diesel,2143,4,24999
-citroën,c-crosser,2011,200412,diesel,2179,4,6450
+citroen,c-crosser,2011,200412,diesel,2179,4,6450
 volkswagen,golf,2010,158000,benzina,1400,4,5999
 bmw,x7,2019,29500,diesel,2993,4,81925
 mercedes-benz,ml,2012,215000,diesel,2987,4,18500
@@ -10702,7 +10702,7 @@ bmw,x6,2010,201000,diesel,2993,4,16400
 volkswagen,caravelle,2020,1,diesel,1968,4,36329
 ford,mondeo,2019,57190,hibrid,1999,4,18749
 ford,kuga,2011,194240,diesel,1986,4,8250
-citroën,c5,2010,199543,diesel,1560,4,4690
+citroen,c5,2010,199543,diesel,1560,4,4690
 porsche,panamera,2014,170000,benzina,4806,8,36490
 alfa,romeo,2010,208800,benzina,1368,4,6660
 bmw,x4,2014,211700,diesel,2993,4,23390
@@ -11111,7 +11111,7 @@ volkswagen,passat,2017,37000,diesel,1968,4,17100
 audi,a5,2018,123000,diesel,1968,4,28299
 audi,q5,2019,10,diesel,1968,4,59576
 dacia,sandero,2018,3356,benzina,898,3,9999
-ford,fiesta,2006,122500,benzina+gpl,1299,4,13000
+ford,fiesta,2006,122500,benzina,1299,4,13000
 bmw,x1,2012,127697,diesel,1995,4,12950
 bmw,seria1,2014,105860,benzina,1598,4,14200
 mercedes-benz,cla,2020,7,benzina,1332,4,56040
@@ -11126,7 +11126,7 @@ opel,insignia,2016,119892,diesel,1598,4,11790
 bmw,x5,2016,143021,diesel,2993,4,32890
 nissan,qashqai,2019,29456,benzina,1332,4,13900
 volkswagen,scirocco,2011,198000,diesel,1968,4,6990
-citroën,c4,2015,166536,diesel,1560,4,10490
+citroen,c4,2015,166536,diesel,1560,4,10490
 ford,kuga,2012,149000,diesel,1998,4,9500
 toyota,auris,2010,97787,diesel,1364,4,5390
 land,rover,2020,50,benzina,5000,8,129980
@@ -11146,7 +11146,7 @@ land,rover,2020,1,diesel,2996,4,54960
 mini,cooper,2017,53018,benzina,1499,4,14756
 mini,cooper,2017,36205,benzina,1499,4,15232
 seat,leon,2017,98000,diesel,1598,4,9448
-dacia,logan,2010,250000,benzina+gpl,1390,4,1400
+dacia,logan,2010,250000,benzina,1390,4,1400
 mercedes-benz,glc,2017,95900,diesel,2143,4,27989
 mini,cooper,2017,91134,benzina,1499,4,13566
 volkswagen,tiguan,2017,218000,diesel,1968,4,17490
@@ -11275,7 +11275,7 @@ renault,megane,2017,46220,benzina,1197,4,14200
 nissan,qashqai+2,2011,218000,diesel,1598,4,7999
 ford,fiesta,2016,60595,benzina,998,3,7990
 renault,grand,2009,196000,diesel,1870,4,4400
-dacia,logan,2008,178000,benzina+gpl,1390,4,2250
+dacia,logan,2008,178000,benzina,1390,4,2250
 volkswagen,new,2000,217000,benzina,2000,4,1999
 mercedes-benz,s,2016,142000,diesel,2986,4,33900
 nissan,navara,2016,135000,diesel,2500,4,12495
@@ -11345,7 +11345,7 @@ kia,sportage,2014,109000,diesel,1995,4,12800
 renault,captur,2019,10000,benzina,900,3,11200
 audi,q8,2018,31400,diesel,2967,4,70323
 volkswagen,tiguan,2008,198000,diesel,2000,4,7500
-cadillac,escalade,2007,140221,benzina+gpl,6200,10,20500
+cadillac,escalade,2007,140221,benzina,6200,10,20500
 bmw,seria5,2013,260000,diesel,1984,4,14000
 renault,captur,2015,250604,diesel,1461,4,7699
 skoda,rapid,2017,100722,diesel,1598,4,9900
@@ -11396,7 +11396,7 @@ ford,mondeo,2009,244000,diesel,1753,4,3850
 bmw,seria4,2015,185000,diesel,3000,6,17500
 opel,astra,2015,216000,diesel,1589,4,7150
 mercedes-benz,glb,2020,15,diesel,1950,4,56325
-citroën,c5,2009,142300,diesel,1560,4,4550
+citroen,c5,2009,142300,diesel,1560,4,4550
 ford,kuga,2017,69700,diesel,1997,4,19368
 ford,kuga,2020,9516,diesel,1998,4,32591
 ford,kuga,2018,20594,benzina,1498,4,25112
@@ -11532,7 +11532,7 @@ volkswagen,tiguan,2019,30000,diesel,1968,4,26900
 bmw,x5,2019,24000,diesel,2993,4,70500
 renault,master,2002,256328,diesel,2188,4,3600
 volkswagen,polo,2020,1,benzina,999,3,11499
-dacia,logan,2016,77000,benzina+gpl,1149,4,5750
+dacia,logan,2016,77000,benzina,1149,4,5750
 audi,a4,2016,136503,diesel,1968,4,16489
 audi,a4,2018,124000,diesel,1968,4,18455
 audi,a4,2010,305000,diesel,1968,4,8600
@@ -11543,7 +11543,7 @@ skoda,octavia,2017,58982,diesel,1598,4,11900
 volkswagen,passat,2016,187000,diesel,1968,4,17640
 mazda,cx-3,2020,1,benzina,1998,4,20159
 audi,q3,2019,13800,benzina,1498,4,30990
-citroën,c1,2018,116000,benzina,998,3,7850
+citroen,c1,2018,116000,benzina,998,3,7850
 dacia,duster,2018,72219,benzina,1197,4,11750
 dacia,duster,2011,130500,diesel,1500,4,6850
 volkswagen,golf,2011,249000,diesel,1598,4,4800
@@ -11630,14 +11630,14 @@ volvo,s40,2008,200000,diesel,1560,4,3500
 land,rover,2019,50,diesel,2998,4,122233
 land,rover,2019,50,diesel,2998,4,101743
 skoda,octavia,2009,230000,benzina,1390,4,5350
-citroën,nemo,2010,163884,diesel,1399,4,3199
+citroen,nemo,2010,163884,diesel,1399,4,3199
 volkswagen,passat,2018,181550,diesel,1986,4,12150
-citroën,c4,2015,192000,diesel,1999,4,9990
+citroen,c4,2015,192000,diesel,1999,4,9990
 audi,a8,2012,198870,diesel,2967,4,15800
 mercedes-benz,vito,2016,132100,diesel,2143,4,17700
 volkswagen,polo,2007,164000,benzina,1198,4,1999
 opel,corsa,2020,1,benzina,1199,4,11450
-volkswagen,passat,2012,146754,benzina+gpl,1800,4,8999
+volkswagen,passat,2012,146754,benzina,1800,4,8999
 volkswagen,golf,2011,153010,benzina,1200,4,5690
 opel,astra,2004,116000,benzina,1400,4,2990
 bmw,seria7,2016,90000,benzina,4395,8,50000
@@ -11705,7 +11705,7 @@ volkswagen,golf,2006,172593,benzina,1390,4,3690
 volkswagen,tiguan,2019,19855,diesel,1968,4,26400
 hyundai,ix20,2012,169000,benzina,1396,4,4284
 opel,astra,2020,1,benzina,1199,4,14936
-citroën,c4,2014,214000,diesel,1600,4,7990
+citroen,c4,2014,214000,diesel,1600,4,7990
 skoda,fabia,2011,155404,diesel,1199,4,4950
 audi,q3,2019,900,benzina,1498,4,30990
 land,rover,2013,204000,diesel,2179,4,11300
@@ -11742,7 +11742,7 @@ porsche,macan,2017,98000,diesel,2993,4,35000
 dacia,logan,2016,100822,diesel,1461,4,5990
 renault,clio,2016,171254,diesel,1461,4,5200
 ford,focus,2014,177600,diesel,2000,4,5500
-citroën,c-crosser,2008,215650,diesel,2179,4,4990
+citroen,c-crosser,2008,215650,diesel,2179,4,4990
 ford,courier,2019,1,diesel,1498,4,15735
 ford,mondeo,2019,6723,hibrid,1999,4,22990
 volkswagen,golf,2015,245000,diesel,1598,4,6800
@@ -11810,7 +11810,7 @@ bmw,seria5,2014,191000,diesel,1995,4,14800
 skoda,rapid,2016,132519,diesel,1422,4,6900
 bmw,seria5,2009,288616,diesel,2993,4,8950
 renault,megane,2006,100013,benzina,1998,4,9500
-citroën,c5,2010,130000,diesel,1986,4,6000
+citroen,c5,2010,130000,diesel,1986,4,6000
 land,rover,2016,51000,diesel,3000,6,43900
 bmw,seria5,2010,299200,diesel,1996,4,7250
 nissan,qashqai,2017,141300,diesel,1600,4,11790
@@ -11907,7 +11907,7 @@ toyota,auris,2013,52250,hibrid,1798,4,12200
 audi,s8,2015,173000,benzina,3993,8,46500
 volkswagen,golf,2006,237800,diesel,1968,4,3380
 audi,a4,2017,183402,diesel,1968,4,15000
-citroën,saxo,2003,109000,diesel,1527,4,5500
+citroen,saxo,2003,109000,diesel,1527,4,5500
 infiniti,fx,2012,155000,diesel,2967,4,15400
 volkswagen,golf,2016,217000,diesel,1968,4,13300
 toyota,rav4,2014,99500,diesel,1998,4,13990
@@ -11963,10 +11963,10 @@ audi,a5,2012,139000,diesel,1998,4,12500
 volkswagen,transporter,2011,500000,diesel,1968,4,8400
 volkswagen,golf,2012,135500,benzina,1200,4,7770
 bmw,seria5,2007,317000,diesel,2993,4,6300
-audi,90,2019,9999999,benzina+cng,2356,4,1000
+audi,90,2019,9999999,benzina,2356,4,1000
 mazda,cx-5,2016,105743,diesel,2191,4,18790
 opel,astra,2011,189000,diesel,1686,4,4400
-citroën,c5,2011,210000,diesel,1998,4,4990
+citroen,c5,2011,210000,diesel,1998,4,4990
 ford,mondeo,2009,109000,diesel,1789,4,3490
 mercedes-benz,gle,2020,8300,diesel,2987,4,64231
 mercedes-benz,gle,2020,1,benzina,2999,4,105898
@@ -12002,7 +12002,7 @@ renault,megane,2014,167000,diesel,1461,4,5899
 renault,grand,2015,249000,diesel,1498,4,6400
 volkswagen,passat,2017,240000,diesel,1598,4,11900
 suzuki,vitara,2017,185957,diesel,1598,4,12950
-citroën,c3,2009,70000,benzina,1124,4,2900
+citroen,c3,2009,70000,benzina,1124,4,2900
 alfa,romeo,2009,125580,benzina,1368,4,3999
 toyota,land,1999,320000,diesel,2982,4,5200
 dacia,duster,2018,19000,diesel,1461,4,14500
@@ -12058,7 +12058,7 @@ volkswagen,passat,2011,186000,diesel,1968,4,9500
 audi,q5,2010,210600,diesel,1968,4,12999
 audi,q5,2011,168741,diesel,1968,4,13499
 mitsubishi,asx,2015,136000,diesel,1800,4,10990
-citroën,c4,2013,126456,diesel,1798,4,8990
+citroen,c4,2013,126456,diesel,1798,4,8990
 volvo,xc,2016,194873,diesel,1969,4,14990
 volkswagen,tiguan,2017,186532,diesel,2000,4,21800
 volkswagen,passat,2010,244000,diesel,1595,4,7099
@@ -12157,7 +12157,7 @@ bmw,seria7,2013,220000,diesel,2993,4,21700
 renault,megane,2012,190180,diesel,1461,4,5899
 dacia,sandero,2013,162000,diesel,1461,4,4990
 ford,tourneo,2020,1,diesel,1997,4,27965
-dacia,logan,2015,119406,benzina+gpl,1149,4,4999
+dacia,logan,2015,119406,benzina,1149,4,4999
 volkswagen,transporter,2015,303000,diesel,1986,4,11300
 mercedes-benz,viano,2007,220000,diesel,2987,4,7400
 infiniti,fx,2009,96000,benzina,3498,6,12500
@@ -12165,7 +12165,7 @@ audi,a4,2010,194000,diesel,1968,4,6100
 mercedes-benz,glk,2011,220000,diesel,2200,4,10500
 mitsubishi,outlander,2008,310000,diesel,2179,4,5700
 renault,megane,2015,156634,diesel,1461,4,7350
-citroën,c4,2015,191574,diesel,1997,4,8990
+citroen,c4,2015,191574,diesel,1997,4,8990
 mercedes-benz,e,2020,6,benzina,1991,4,74023
 opel,astra,2017,158919,diesel,1598,4,8950
 volkswagen,caddy,2017,49900,diesel,1968,4,12495
@@ -12214,7 +12214,7 @@ bmw,x5,2011,292000,diesel,3000,6,15000
 opel,zafira,2011,258766,diesel,1686,4,4899
 bmw,x5,2016,62150,diesel,2993,4,39841
 mini,cooper,2006,109850,benzina,1598,4,7250
-citroën,c1,2007,180841,benzina,998,3,1800
+citroen,c1,2007,180841,benzina,998,3,1800
 dacia,logan,2016,91082,diesel,1461,4,6307
 audi,a4,2010,192000,diesel,2700,4,6850
 volkswagen,golf,2016,146727,diesel,1598,4,13390
@@ -12259,7 +12259,7 @@ audi,a5,2017,98305,diesel,1968,4,23030
 audi,a5,2017,98800,diesel,1968,4,27687
 audi,a5,2016,116100,diesel,1968,4,20685
 mercedes-benz,c,2016,169216,hibrid,2143,4,19490
-volkswagen,polo,2007,185245,benzina+gpl,1400,4,3600
+volkswagen,polo,2007,185245,benzina,1400,4,3600
 skoda,octavia,2018,143000,diesel,1598,4,12450
 toyota,rav4,2014,105374,benzina,1987,4,19500
 volvo,xc,2012,249000,diesel,2400,4,9490
@@ -12299,7 +12299,7 @@ dacia,logan,2017,81603,diesel,1461,4,6723
 mercedes-benz,glc,2016,204222,diesel,2143,4,22900
 volvo,v60,2014,216636,hibrid,2400,4,11500
 skoda,superb,2009,167085,diesel,1896,4,2950
-citroën,ds4,2016,111467,diesel,1560,4,9299
+citroen,ds4,2016,111467,diesel,1560,4,9299
 volkswagen,golf,2010,195000,benzina,1390,4,5690
 land,rover,2013,260258,diesel,2993,4,17500
 mercedes-benz,cla,2015,137000,diesel,2143,4,20500
@@ -12307,7 +12307,7 @@ skoda,karoq,2017,52054,diesel,1968,4,24950
 mazda,3,2020,1,benzina,1998,4,24140
 land,rover,2004,180000,diesel,2500,4,5800
 opel,corsa,2020,1,benzina,1199,4,13800
-citroën,c4,2016,176865,diesel,1560,4,9990
+citroen,c4,2016,176865,diesel,1560,4,9990
 audi,q3,2014,283000,diesel,2000,4,13500
 volkswagen,passat,2015,203517,diesel,1998,4,12490
 renault,megane,2019,10220,diesel,1461,4,18990
@@ -12382,7 +12382,7 @@ ford,focus,2013,170000,benzina,999,3,5590
 bmw,seria5,2013,202313,diesel,1995,4,12990
 mercedes-benz,v,2019,20000,diesel,2143,4,58900
 ford,fiesta,2013,197000,diesel,1498,4,4150
-opel,corsa,2011,120000,benzina+gpl,1400,4,4390
+opel,corsa,2011,120000,benzina,1400,4,4390
 volkswagen,sharan,2011,248000,diesel,1998,4,9450
 volkswagen,golf,2010,80000,diesel,1598,4,5480
 land,rover,2020,3580,benzina,1997,4,52107
@@ -12440,7 +12440,7 @@ toyota,land,2015,260000,diesel,2982,4,23000
 skoda,kamiq,2020,2000,benzina,999,3,22600
 hyundai,santa,2004,260000,diesel,1991,4,2850
 peugeot,307,2005,350000,diesel,1560,4,2000
-dacia,logan,2017,163000,benzina+gpl,999,3,4600
+dacia,logan,2017,163000,benzina,999,3,4600
 bmw,seria5,2006,286000,diesel,2993,4,6946
 suzuki,ignis,2019,22423,benzina,1242,4,8300
 renault,megane,2009,231414,benzina,1598,4,2699
@@ -12468,7 +12468,7 @@ dacia,logan,2011,170000,diesel,1461,4,3700
 peugeot,301,2018,15569,benzina,1199,4,9520
 volkswagen,touareg,2016,107000,diesel,2995,4,29900
 bmw,seria5,2015,84000,diesel,1995,4,20000
-kia,sportage,2012,165000,benzina+gpl,2000,4,10300
+kia,sportage,2012,165000,benzina,2000,4,10300
 land,rover,2020,2560,benzina,1997,4,52139
 bmw,x3,2005,278000,diesel,1995,4,4800
 bmw,seria4,2016,107000,diesel,2000,4,13450
@@ -12497,7 +12497,7 @@ opel,astra,2019,16000,diesel,1499,4,16900
 mercedes-benz,a,2004,149000,diesel,1700,4,1750
 kia,sportage,2007,190000,diesel,2000,4,3650
 dacia,logan,2018,5,benzina,999,3,8999
-citroën,ds5,2011,240000,diesel,1560,4,5999
+citroen,ds5,2011,240000,diesel,1560,4,5999
 volvo,xc,2013,159000,diesel,2400,4,11990
 bmw,seria7,2009,239000,diesel,2990,4,11990
 opel,zafira,2016,219000,diesel,1598,4,7490
@@ -12513,7 +12513,7 @@ mini,one,2011,156631,benzina,1599,4,5290
 bmw,seria3,2018,81200,diesel,1995,4,28769
 mercedes-benz,sprinter,2004,830000,diesel,2685,4,4900
 bmw,x1,2010,204859,diesel,1991,4,9900
-mitsubishi,lancer,2010,260,benzina+gpl,1600,4,4500
+mitsubishi,lancer,2010,260,benzina,1600,4,4500
 chevrolet,camaro,2012,165000,benzina,3600,6,11000
 ford,focus,2015,203390,diesel,1499,4,5989
 bmw,seria5,2013,99270,diesel,1995,4,14990
@@ -12529,7 +12529,7 @@ opel,antara,2012,151340,diesel,2231,4,6999
 volkswagen,passat,2018,169000,diesel,1995,4,13700
 audi,a6,2016,180500,diesel,2976,4,28990
 dacia,dokker,2016,153384,diesel,1461,4,6990
-audi,a3,2000,335000,benzina+gpl,1781,4,1250
+audi,a3,2000,335000,benzina,1781,4,1250
 skoda,octavia,2015,145996,diesel,1968,4,15690
 bmw,x6,2017,62000,diesel,3000,6,52500
 seat,tarraco,2019,11000,diesel,1968,4,29900
@@ -12581,7 +12581,7 @@ audi,a6,2015,72330,diesel,1968,4,21350
 dacia,duster,2016,146051,diesel,1461,4,11440
 audi,a5,2009,179500,benzina,1984,4,10450
 audi,a6,2016,245058,diesel,2967,4,16000
-citroën,c4,2014,130000,benzina,1400,4,6330
+citroen,c4,2014,130000,benzina,1400,4,6330
 mercedes-benz,c,2015,78815,diesel,2143,4,20850
 volkswagen,passat,2015,137521,diesel,1968,4,15400
 volkswagen,passat,2016,222304,diesel,1968,4,11850
@@ -12639,7 +12639,7 @@ nissan,qashqai,2014,198000,diesel,1598,4,13078
 volkswagen,golf,2018,38000,diesel,1598,4,13804
 audi,a4,2005,224000,diesel,1984,4,2850
 mercedes-benz,vito,2005,265000,diesel,2148,4,3700
-citroën,c4,2007,245000,diesel,1560,4,2900
+citroen,c4,2007,245000,diesel,1560,4,2900
 ford,focus,2006,217000,diesel,1598,4,1850
 ford,c-max,2008,247000,diesel,1753,4,2600
 opel,insignia,2020,5,diesel,1496,4,23260
@@ -12688,7 +12688,7 @@ volkswagen,sharan,2013,152000,diesel,1968,4,15000
 mercedes-benz,b,2017,20000,diesel,1461,4,20111
 maserati,levante,2017,93200,diesel,2987,4,47588
 volkswagen,golf,2007,293000,diesel,1896,4,3300
-opel,astra,2013,160000,benzina+cng,1598,4,3600
+opel,astra,2013,160000,benzina,1598,4,3600
 mazda,6,2017,55000,diesel,2200,4,16000
 audi,a4,2009,218000,diesel,1986,4,5800
 audi,a4,2014,215000,diesel,2000,4,10300
@@ -12748,7 +12748,7 @@ fiat,ducato,2008,173500,diesel,2198,4,4899
 peugeot,2008,2015,121400,diesel,1600,4,8998
 suzuki,sx4,2014,156000,diesel,1600,4,8092
 skoda,octavia,2014,232000,diesel,1996,4,10750
-citroën,c4,2011,250000,diesel,1560,4,4499
+citroen,c4,2011,250000,diesel,1560,4,4499
 bmw,seria1,2005,207000,benzina,1600,4,3690
 volkswagen,golf,2006,223000,diesel,1896,4,2990
 chrysler,pt,2001,219000,benzina,1599,4,1999
@@ -12799,7 +12799,7 @@ mercedes-benz,cla,2015,31000,diesel,1461,4,18900
 skoda,octavia,2012,211000,diesel,1598,4,5350
 renault,megane,2018,40000,benzina,1197,4,14400
 nissan,qashqai,2011,170000,benzina,1600,4,6599
-citroën,c-elysée,2015,246500,diesel,1560,4,3800
+citroen,c-elysée,2015,246500,diesel,1560,4,3800
 seat,ibiza,2013,189000,diesel,1122,4,5290
 opel,insignia,2014,229000,diesel,1998,4,6990
 opel,corsa,2014,130500,benzina,1398,4,5650
@@ -12934,7 +12934,7 @@ audi,a4,2010,258000,diesel,1968,4,8700
 volkswagen,tiguan,2013,182000,diesel,1986,4,12799
 nissan,qashqai,2010,210000,diesel,1500,4,6090
 volkswagen,caddy,2007,219000,diesel,1896,4,4877
-dacia,sandero,2009,148041,benzina+gpl,1400,4,3299
+dacia,sandero,2009,148041,benzina,1400,4,3299
 volkswagen,golf,2015,161050,diesel,1598,4,8650
 volkswagen,crafter,2011,304321,diesel,1968,4,8999
 opel,astra,2014,199500,diesel,1686,4,5990
@@ -12984,7 +12984,7 @@ ford,focus,2002,266000,diesel,1753,4,890
 opel,astra,2007,168000,benzina,1598,4,2990
 mitsubishi,outlander,2007,163000,diesel,1968,4,4999
 opel,corsa,2010,129000,benzina,1200,4,3490
-kia,sportage,2002,161000,benzina+gpl,1997,4,2990
+kia,sportage,2002,161000,benzina,1997,4,2990
 seat,leon,2011,209000,diesel,1600,4,4350
 volkswagen,golf,2007,174000,benzina,1598,4,3550
 bmw,seria1,2009,203000,diesel,1998,4,5350
@@ -13105,7 +13105,7 @@ porsche,panamera,2012,137500,benzina,3605,8,27500
 mercedes-benz,c,2015,106000,diesel,2143,4,17200
 bmw,seria3,2017,50000,diesel,1995,4,16850
 mercedes-benz,g,2020,1,diesel,2925,4,109599
-dacia,logan,2015,129500,benzina+gpl,1200,4,3990
+dacia,logan,2015,129500,benzina,1200,4,3990
 bmw,seria5,1998,203000,benzina,3500,6,8900
 skoda,octavia,2018,205000,diesel,1968,4,10990
 bmw,seria3,2012,115000,benzina,2000,4,17000
@@ -13410,7 +13410,7 @@ volvo,xc,2006,260000,diesel,2401,4,7400
 mercedes-benz,glc,2019,14000,benzina,1991,4,40460
 audi,a6,2019,50,diesel,1968,4,39598
 volkswagen,tiguan,2015,250063,diesel,1968,4,11997
-mini,one,2009,138688,benzina+gpl,1397,4,4990
+mini,one,2009,138688,benzina,1397,4,4990
 volkswagen,golf,2008,400000,diesel,1896,4,2900
 hyundai,i20,2018,25409,benzina,1248,4,7300
 skoda,superb,2020,10,hibrid,1395,4,39460
@@ -13464,7 +13464,7 @@ peugeot,206,2002,199000,benzina,1200,4,1199
 bmw,seria4,2016,167482,diesel,1995,4,17600
 mercedes-benz,gl,2013,218500,diesel,2987,4,32725
 lexus,seria,2020,10,hibrid,2500,4,49980
-volkswagen,golf,2009,220000,benzina+gpl,1598,4,4950
+volkswagen,golf,2009,220000,benzina,1598,4,4950
 opel,astra,2003,173028,benzina,1598,4,1550
 ford,focus,2005,302000,diesel,1753,4,1350
 dacia,duster,2018,74305,benzina,1197,4,11898
@@ -13521,11 +13521,11 @@ mercedes-benz,vito,2019,17000,diesel,1950,4,39021
 bmw,seria7,2015,66900,diesel,2993,4,48766
 mercedes-benz,ml,2007,183000,diesel,2987,4,8900
 bmw,seria5,2018,40000,benzina,1998,4,37000
-citroën,jumper,2012,357100,diesel,2198,4,6700
+citroen,jumper,2012,357100,diesel,2198,4,6700
 volkswagen,touareg,2012,63000,diesel,2967,4,24950
 land,rover,2006,257230,diesel,2720,4,5600
 volkswagen,golf,2011,305000,diesel,1600,4,5100
-citroën,ds5,2013,54746,diesel,1997,4,7300
+citroen,ds5,2013,54746,diesel,1997,4,7300
 audi,sq5,2017,98000,benzina,2995,4,42990
 smart,forfour,2004,201000,benzina,1499,4,2300
 bmw,seria4,2020,50,benzina,1998,4,63068
@@ -13564,7 +13564,7 @@ mercedes-benz,c,2019,1500,benzina,1497,4,43911
 volkswagen,touareg,2008,225238,diesel,2500,4,7600
 bmw,seria3,2009,231439,diesel,1998,4,7000
 maybach,62,2018,44000,benzina,5980,8,129710
-citroën,c3,2010,40000,benzina,1350,4,4200
+citroen,c3,2010,40000,benzina,1350,4,4200
 audi,a6,1998,273000,benzina,2393,4,1600
 opel,astra,2006,188051,diesel,1286,4,2300
 peugeot,308,2016,180000,diesel,1600,4,6750
@@ -13705,7 +13705,7 @@ kia,carnival,2005,197000,diesel,2902,4,999
 bmw,seria5,2012,259000,diesel,2993,4,15900
 mercedes-benz,gla,2015,72100,diesel,2143,4,19400
 bmw,x5,2016,125750,diesel,2993,4,34391
-dacia,sandero,2016,80000,benzina+gpl,900,3,6800
+dacia,sandero,2016,80000,benzina,900,3,6800
 bmw,seria3,2006,270000,diesel,1995,4,3550
 renault,megane,2017,60230,diesel,1600,4,15300
 hyundai,ix35,2015,189231,diesel,1995,4,12500
@@ -13715,7 +13715,7 @@ volvo,xc,2015,188000,diesel,1969,4,16400
 audi,a4,2002,335000,diesel,1896,4,2900
 mercedes-benz,glc,2017,121100,diesel,2143,4,27010
 opel,crossland,2018,87000,benzina,1199,4,9900
-dacia,logan,2017,96000,benzina+gpl,999,3,4537
+dacia,logan,2017,96000,benzina,999,3,4537
 volkswagen,passat,2009,180000,diesel,1968,4,9650
 bmw,seria6,2009,240000,diesel,2993,4,10900
 honda,cr-v,2019,12600,hibrid,1998,4,37900
@@ -13797,7 +13797,7 @@ volkswagen,caddy,2005,287000,diesel,1896,4,2999
 audi,rs6,2020,3000,benzina,3998,8,145000
 audi,q5,2017,107508,diesel,1968,4,35150
 jeep,wrangler,2019,5500,benzina,2000,4,53431
-dacia,logan,2014,154680,benzina+gpl,1196,4,5090
+dacia,logan,2014,154680,benzina,1196,4,5090
 renault,laguna,2015,125931,diesel,1461,4,3500
 volkswagen,arteon,2017,15975,diesel,1968,4,26970
 volkswagen,arteon,2017,129000,diesel,1968,4,25075
@@ -14107,7 +14107,7 @@ porsche,cayenne,2018,47800,benzina,2995,4,74200
 skoda,octavia,2006,232000,diesel,1896,4,3990
 volvo,xc,2007,252000,diesel,2401,4,2150
 volkswagen,tiguan,2012,263000,diesel,1968,4,8990
-dacia,lodgy,2012,156475,benzina+gpl,1600,4,5125
+dacia,lodgy,2012,156475,benzina,1600,4,5125
 land,rover,2020,17300,diesel,1999,4,38572
 land,rover,2017,175000,diesel,1999,4,23953
 land,rover,2019,18300,diesel,1999,4,33442
@@ -14177,7 +14177,7 @@ opel,corsa,2010,175729,diesel,1248,4,4990
 mercedes-benz,cls,2020,1,benzina,2999,4,113584
 kia,sportage,2010,139000,diesel,1998,4,9650
 bmw,x1,2011,196000,diesel,1995,4,7490
-citroën,c5,2010,223000,diesel,1997,4,6700
+citroen,c5,2010,223000,diesel,1997,4,6700
 hyundai,tucson,2017,17000,diesel,2000,4,24500
 mercedes-benz,amg,2019,22500,benzina,2999,4,107359
 bmw,x5,2013,161600,diesel,3000,6,29900
@@ -14193,7 +14193,7 @@ dacia,logan,2016,142906,diesel,1461,4,5490
 bmw,m2,2014,86663,benzina,2979,4,24900
 audi,q7,2018,49000,diesel,3000,6,47999
 skoda,octavia,2017,120403,benzina,999,3,8990
-volkswagen,touran,2014,185000,benzina+gpl,1390,4,6900
+volkswagen,touran,2014,185000,benzina,1390,4,6900
 mercedes-benz,cla,2016,269950,diesel,2143,4,11299
 opel,corsa,2018,176800,diesel,1248,4,6790
 audi,a7,2018,61898,diesel,2967,4,54916
@@ -14281,7 +14281,7 @@ fiat,500l,2013,95000,diesel,1300,4,6490
 ford,focus,2016,149000,diesel,1500,4,6890
 audi,a3,2017,67000,diesel,1600,4,15470
 kia,picanto,2011,166000,benzina,1086,4,2650
-kia,sportage,1995,242000,benzina+gpl,1998,4,1400
+kia,sportage,1995,242000,benzina,1998,4,1400
 opel,combo,2008,233855,diesel,1686,4,2300
 mercedes-benz,gle,2020,3000,diesel,2925,4,108279
 skoda,octavia,2007,202536,benzina,1789,4,4400
