@@ -131,8 +131,8 @@ if __name__ == '__main__':
     
     logging.debug('encoded dataset row: \n %s \n', input_dataset_row)
 
-    prediction_dataframe = pd.DataFrame.from_records(input_dataset_row, columns=encoded_dataset_columns)
-    logging.debug('prediction dataframe: \n %s \n', prediction_dataframe)
+    normalized_input = normalize_values(input_dataset_row)
+    logging.debug('normalized input is: \n %s \n', normalized_input)
 
     
     print('finished prediction')
