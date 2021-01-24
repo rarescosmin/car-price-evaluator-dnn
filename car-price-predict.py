@@ -23,57 +23,56 @@ def load_csv_data(path, fieldnames):
 def one_hot_encode_categorical_features(dataframe, columns_to_encode):
     logging.info('One Hot Encoding make, model, fueltype columns... ')
     encoded_dataset = pd.get_dummies(
-        dataframe, columns=columns_to_encode, prefix='', prefix_sep='')
+        dataframe, columns=columns_to_encode, prefix='', prefix_sep='', dtype=float)
     return encoded_dataset
 
 
+def normalize_value(value, min, max):
+    normalized_value = (value - min) / (max - min)
+    print('normalized value ', normalized_value)
+    return normalized_value
+
+
+
+def reverse_normalization(normalized_value, min, max):
+    actual_value = normalized_value * (max - min) + min
+    print('actual_value ', actual_value)
+    return actual_value
+
+
+
 # normalizes label between min and max
-def normalize_values(dataset):
+def get_min_max_values(dataset):
     cylinders_min_value = dataset['cylinders'].min()
     print('min cylinders', cylinders_min_value)
     cylinders_max_value = dataset['cylinders'].max()
     print('max cylinders', cylinders_max_value)
-    for cylinders_value in dataset['cylinders']:
-        normalized_cylinders_value = (cylinders_value - cylinders_min_value) / (cylinders_max_value - cylinders_min_value)
-        dataset['cylinders'].replace(cylinders_value, normalized_cylinders_value, inplace=True)
-
+    
 
     engineCapacity_min_value = dataset['engineCapacity'].min()
     print('min engineCapacity', engineCapacity_min_value)
     engineCapacity_max_value = dataset['engineCapacity'].max()
     print('max engineCapacity', engineCapacity_max_value)
-    for engineCapacity_value in dataset['engineCapacity']:
-        normalized_engineCapacity_value = (engineCapacity_value - engineCapacity_min_value) / (engineCapacity_max_value - engineCapacity_min_value)
-        dataset['engineCapacity'].replace(engineCapacity_value, normalized_engineCapacity_value, inplace=True)
-
+    
 
     mileage_min_value = dataset['mileage'].min()
     print('min mileage', mileage_min_value)
     mileage_max_value = dataset['mileage'].max()
     print('max mileage', mileage_max_value)
-    for mileage_value in dataset['mileage']:
-        normalized_mileage_value = (mileage_value - mileage_min_value) / (mileage_max_value - mileage_min_value)
-        dataset['mileage'].replace(mileage_value, normalized_mileage_value, inplace=True)
-
+    
 
     year_min_value = dataset['year'].min()
     print('min year', year_min_value)
     year_max_value = dataset['year'].max()
     print('max year', year_max_value)
-    for year_value in dataset['year']:
-        normalized_year_value = (year_value - year_min_value) / (year_max_value - year_min_value)
-        dataset['year'].replace(year_value, normalized_year_value, inplace=True)
-
+    
 
     price_min_value = dataset['price'].min()
     print('min price', price_min_value)
     price_max_value = dataset['price'].max()
     print('max price', price_max_value)
-    for price_value in dataset['price']:
-        normalized_price_value = (price_value - price_min_value) / (price_max_value - price_min_value)
-        dataset['price'].replace(price_value, normalized_price_value, inplace=True)
-
-    return dataset
+    
+    return cylinders_min_value, cylinders_max_value, engineCapacity_min_value, engineCapacity_max_value, mileage_min_value, mileage_max_value, year_min_value, year_max_value, price_min_value, price_max_value
 
 
 if __name__ == '__main__':
@@ -111,12 +110,15 @@ if __name__ == '__main__':
         encoded_dataset_row.replace(item, 0, inplace=True)
     
     input_dataset_row = encoded_dataset_row.copy()
+    logging.debug('input dataset row: \n %s \n', input_dataset_row)
+
+    cylinders_min_value, cylinders_max_value, engineCapacity_min_value, engineCapacity_max_value, mileage_min_value, mileage_max_value, year_min_value, year_max_value, price_min_value, price_max_value = get_min_max_values(raw_dataset)
 
 
-    input_dataset_row['year'] = input_car['year']
-    input_dataset_row['mileage'] = input_car['mileage']
-    input_dataset_row['engineCapacity'] = input_car['engineCapacity']
-    input_dataset_row['cylinders'] = input_car['cylinders']
+    input_dataset_row['year'] = normalize_value(input_car['year'], year_min_value, year_max_value)
+    input_dataset_row['mileage'] = normalize_value(input_car['mileage'], mileage_min_value, mileage_max_value)
+    input_dataset_row['engineCapacity'] = normalize_value(input_car['engineCapacity'], engineCapacity_min_value, engineCapacity_max_value)
+    input_dataset_row['cylinders'] = normalize_value(input_car['cylinders'], cylinders_min_value, cylinders_max_value)
 
     for item in encoded_dataset_columns:
         if item == input_car['make']:
@@ -129,10 +131,12 @@ if __name__ == '__main__':
             input_dataset_row[item] = 1
     
     
-    logging.debug('encoded dataset row: \n %s \n', input_dataset_row)
+    logging.debug('normalized and encoded dataset row: \n %s \n', input_dataset_row)
 
-    normalized_input = normalize_values(input_dataset_row)
-    logging.debug('normalized input is: \n %s \n', normalized_input)
+    reloaded = tf.keras.models.load_model('car-eval-model')
+    normalized_prediction = reloaded.predict(np.array(input_dataset_row).reshape(1, 553))
+    print('normalized prediction price is ', normalized_prediction)
+    prediction = reverse_normalization(normalized_prediction, price_min_value, price_max_value)
+    print('price is: ', prediction)
 
-    
     print('finished prediction')

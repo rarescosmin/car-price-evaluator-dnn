@@ -8,30 +8,44 @@ DEBUG:root:dataframe columns:
       dtype='object', length=553) 
 
 DEBUG:root:encoded dataset row: 
- year               2019
-mileage           19700
-engineCapacity      998
-cylinders             3
-abarth                0
-                  ...  
-zt                    0
-benzina               1
-diesel                0
-electric              0
-hibrid                0
-Name: 0, Length: 553, dtype: int64 
+ year               2019.0
+mileage           19700.0
+engineCapacity      998.0
+cylinders             3.0
+abarth                0.0
+                   ...   
+zt                    0.0
+benzina               1.0
+diesel                0.0
+electric              0.0
+hibrid                0.0
+Name: 0, Length: 553, dtype: float64 
 
-DEBUG:root:encoded dataset row: 
- year                2013
-mileage           200000
-engineCapacity      1968
-cylinders              4
-abarth                 0
-                   ...  
-zt                     0
-benzina                0
-diesel                 1
-electric               0
-hibrid                 0
-Name: 0, Length: 553, dtype: int64 
+DEBUG:root:input dataset row: 
+ year              0.0
+mileage           0.0
+engineCapacity    0.0
+cylinders         0.0
+abarth            0.0
+                 ... 
+zt                0.0
+benzina           0.0
+diesel            0.0
+electric          0.0
+hibrid            0.0
+Name: 0, Length: 553, dtype: float64 
+
+DEBUG:root:normalized and encoded dataset row: 
+ year              0.854167
+mileage           0.239739
+engineCapacity    0.246851
+cylinders         0.142857
+abarth            0.000000
+                    ...   
+zt                0.000000
+benzina           0.000000
+diesel            1.000000
+electric          0.000000
+hibrid            0.000000
+Name: 0, Length: 553, dtype: float64 
 
