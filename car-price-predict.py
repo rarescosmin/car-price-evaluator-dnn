@@ -1,4 +1,5 @@
 import tensorflow as tf
+import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
@@ -11,23 +12,6 @@ import seaborn as sns
 import logging
 
 TARGET_COLUMN = 'price'
-
-# Make numpy printouts easier to read.
-np.set_printoptions(precision=3, suppress=True)
-
-# Check tensorflow version
-print('TensorFlow Ver.. ', tf.__version__)
-
-
-def plot_loss(history):
-    plt.plot(history.history['loss'], label='loss')
-    plt.plot(history.history['val_loss'], label='val_loss')
-    plt.ylim([-1, 10])
-    plt.xlabel('Epoch')
-    plt.ylabel('Error [Price]')
-    plt.legend()
-    plt.grid(True)
-    plt.show()
 
 
 # return csv dataframe
@@ -89,91 +73,66 @@ def normalize_values(dataset):
         normalized_price_value = (price_value - price_min_value) / (price_max_value - price_min_value)
         dataset['price'].replace(price_value, normalized_price_value, inplace=True)
 
-
     return dataset
 
 
-
 if __name__ == '__main__':
-    logging.basicConfig(filename='car-eval-dnn.log',
+    logging.basicConfig(filename='car-predict.log',
                         level=logging.DEBUG, filemode='w')
 
-    # first we load the data into a data frame
-    logging.info('Reading csv... ')
+    input_car = {
+        'make': 'audi',
+        'model': 'a5',
+        'year': 2013,
+        'mileage': 200000,
+        'fuelType': 'diesel',
+        'engineCapacity': 1968,
+        'cylinders': 4
+    }
+
     raw_dataset = load_csv_data(
         path='./clean-csv-data/cars_train.csv',
         fieldnames=['make', 'model', 'year', 'mileage',
             'fuelType', 'engineCapacity', 'cylinders', 'price']
     )
-    logging.debug('Initial dataset: \n %s \n', raw_dataset.head())
 
-    logging.info('Normalizing values... ')
-    dataset = normalize_values(raw_dataset)
-    logging.debug('Normalized labels look like this: \n %s \n', dataset.head())
-
-    # encoding categorical features
     encoded_dataset = one_hot_encode_categorical_features(
-        dataset, ['make', 'model', 'fuelType']
+        raw_dataset, ['make', 'model', 'fuelType']
     )
-    logging.debug(
-        'Dataset has been encoded looks like this: \n %s \n', encoded_dataset)
-    logging.debug('Column names after encoding: \n %s \n',
-                  encoded_dataset.columns)
 
-    # split dataset into train and test
-    logging.info('Splitting dataset into train and test...')
-    train_dataset = encoded_dataset.sample(frac=0.8, random_state=0)
-    test_dataset = encoded_dataset.drop(train_dataset.index)
-    logging.debug('Train dataset size %s : \n %s \n',
-                  len(train_dataset), train_dataset.head())
-    logging.debug('Test dataset size %s : \n %s \n',
-                  len(test_dataset), test_dataset.head())
+    encoded_dataset.pop('price')
+
+    encoded_dataset_columns = encoded_dataset.columns
+    logging.debug('dataframe columns: \n %s \n', encoded_dataset_columns)
+
+    encoded_dataset_row = encoded_dataset.iloc[0]
+    logging.debug('encoded dataset row: \n %s \n', encoded_dataset_row)
+    for item in encoded_dataset_row:
+        encoded_dataset_row.replace(item, 0, inplace=True)
     
-
-    logging.info('General stats about the data: \n %s \n',
-                 train_dataset.describe().transpose())
-
-    logging.info('Spliting features from labels... ')
-    train_features = train_dataset.copy()
-    train_labels = train_features.pop(TARGET_COLUMN)
-    test_features = test_dataset.copy()
-    test_labels =  test_features.pop(TARGET_COLUMN)
-    logging.debug('Train features: \n %s \n', train_features.head())
-    logging.debug('Train labels: \n %s \n', train_labels.head())
-    logging.debug('Test features: \n %s \n', test_features.head())
-    logging.debug('Test labels: \n %s \n', test_labels.head())
+    input_dataset_row = encoded_dataset_row.copy()
 
 
-    # logging.info('Adding normalizer...')
-    # normalizer = preprocessing.Normalization()
-    # normalizer.adapt(np.array(train_features))
+    input_dataset_row['year'] = input_car['year']
+    input_dataset_row['mileage'] = input_car['mileage']
+    input_dataset_row['engineCapacity'] = input_car['engineCapacity']
+    input_dataset_row['cylinders'] = input_car['cylinders']
 
-    # first = np.array(train_features[:1])
-    # with np.printoptions(precision=2, suppress=True):
-    #     print('First example:', first)
-    #     print()
-    #     print('Normalized:', normalizer(first).numpy())
-
-    model = keras.Sequential([
-        layers.Dense(16, activation='relu'),
-        layers.Dense(1)
-    ])
-
-    #print('summary ', model.summary())
-
-    model.compile(loss='mean_squared_error',
-                    optimizer=tf.keras.optimizers.Adam(0.001))
+    for item in encoded_dataset_columns:
+        if item == input_car['make']:
+            input_dataset_row[item] = 1
+        
+        if item == input_car['model']:
+            input_dataset_row[item] = 1
+        
+        if item == input_car['fuelType']:
+            input_dataset_row[item] = 1
     
     
-    history = model.fit(
-        train_features, train_labels,
-        validation_split=0.2,
-        verbose=1, epochs=10
-    )
-    plot_loss(history)
+    logging.debug('encoded dataset row: \n %s \n', input_dataset_row)
 
-    test_results = {}
-    test_results['model'] = model.evaluate(test_features, test_labels, verbose=1)
+    prediction_dataframe = pd.DataFrame.from_records(input_dataset_row, columns=encoded_dataset_columns)
+    logging.debug('prediction dataframe: \n %s \n', prediction_dataframe)
 
-    model.save('car-eval-model')
-
+    
+    print('finished prediction')
