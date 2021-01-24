@@ -38,7 +38,7 @@ Name: 0, Length: 553, dtype: float64
 DEBUG:root:normalized and encoded dataset row: 
  year              0.854167
 mileage           0.239739
-engineCapacity    0.246851
+engineCapacity    0.251102
 cylinders         0.142857
 abarth            0.000000
                     ...   

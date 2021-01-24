@@ -10,6 +10,7 @@ import pandas as pd
 import seaborn as sns
 
 import logging
+import sys
 
 TARGET_COLUMN = 'price'
 
@@ -28,6 +29,7 @@ def one_hot_encode_categorical_features(dataframe, columns_to_encode):
 
 
 def normalize_value(value, min, max):
+    print('value ', value)
     normalized_value = (value - min) / (max - min)
     print('normalized value ', normalized_value)
     return normalized_value
@@ -78,15 +80,17 @@ def get_min_max_values(dataset):
 if __name__ == '__main__':
     logging.basicConfig(filename='car-predict.log',
                         level=logging.DEBUG, filemode='w')
+    
+    print('sys args', sys.argv)
 
     input_car = {
-        'make': 'audi',
-        'model': 'a5',
-        'year': 2013,
-        'mileage': 200000,
-        'fuelType': 'diesel',
-        'engineCapacity': 1968,
-        'cylinders': 4
+        'make': sys.argv[1],
+        'model': sys.argv[2],
+        'year': int(sys.argv[3]),
+        'mileage': int(sys.argv[4]),
+        'fuelType': sys.argv[5],
+        'engineCapacity': int(sys.argv[6]),
+        'cylinders': int(sys.argv[7])
     }
 
     raw_dataset = load_csv_data(
