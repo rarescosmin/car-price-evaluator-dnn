@@ -1,0 +1,1 @@
+"C:/Users/Rares Zaharescu/AppData/Local/Programs/Python/Python38/python.exe" "c:/Users/Rares Zaharescu/Documents/Workspace/sisteme-internet-inteligente/car-price-predict.py"
