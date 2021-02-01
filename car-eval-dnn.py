@@ -2,6 +2,8 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
+from keras import backend as K
+from keras.losses import mean_squared_error
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,6 +19,11 @@ np.set_printoptions(precision=3, suppress=True)
 
 # Check tensorflow version
 print('TensorFlow Ver.. ', tf.__version__)
+
+def root_mean_squared_error(y_true, y_pred):
+    return K.sqrt(mean_squared_error(y_true, y_pred))
+
+
 
 
 def plot_loss(history):
@@ -161,7 +168,7 @@ if __name__ == '__main__':
 
     #print('summary ', model.summary())
 
-    model.compile(loss='mean_squared_error',
+    model.compile(loss=root_mean_squared_error,
                     optimizer=tf.keras.optimizers.Adam(0.001))
     
     

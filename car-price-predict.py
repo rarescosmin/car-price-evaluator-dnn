@@ -2,6 +2,8 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.layers.experimental import preprocessing
+from keras import backend as K
+from keras.losses import mean_squared_error
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -32,6 +34,10 @@ def normalize_value(value, min, max):
     normalized_value = (value - min) / (max - min)
     print('normalized value ', normalized_value)
     return normalized_value
+
+
+def root_mean_squared_error(y_true, y_pred):
+    return K.sqrt(mean_squared_error(y_true, y_pred))
 
 
 
