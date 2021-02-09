@@ -14,24 +14,26 @@ def create_soup(x):
     return x['make'] + ' ' + x['model'] + ' ' + str(x['year']) + ' ' + str(x['mileage']) + ' ' + str(x['fuelType']) + ' ' + str(x['price'])
 
 
-def get_recommendations(metadata, indices, title, cosine_sim):
-    # Get the index of the movie that matches the title
-    idx = indices[title]
+def get_recommendations(metadata, indices, car_title, cosine_sim):
+    # Get the index of the car that matches the car_title
+    idx = indices[car_title]
 
-    # Get the pairwsie similarity scores of all movies with that movie
+    # Get the pairwsie similarity scores of all movies with that car
     sim_scores = list(enumerate(cosine_sim[idx]))
 
-    # Sort the movies based on the similarity scores
+    # Sort the cars based on the similarity scores
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
-    # Get the scores of the 10 most similar movies
+    # Get the scores of the 10 most similar cars
     sim_scores = sim_scores[1:11]
 
     # Get the movie indices
-    movie_indices = [i[0] for i in sim_scores]
+    car_indices = [i[0] for i in sim_scores]
 
     # Return the top 10 most similar movies
-    return metadata.iloc[movie_indices]
+    return metadata.iloc[car_indices]
+
+    
 
 def create_soup_2(x):
     return x['make']+ ' ' + x['model'] + ' ' + str(x['year']) + ' ' + str(x['price'])
