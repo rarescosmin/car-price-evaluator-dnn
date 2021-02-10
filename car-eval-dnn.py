@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
     #print('summary ', model.summary())
 
-    model.compile(loss=root_mean_squared_error,
+    model.compile(loss=mean_squared_error,
                     optimizer=tf.keras.optimizers.Adam(0.001))
     
     
